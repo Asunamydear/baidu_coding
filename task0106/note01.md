@@ -91,3 +91,11 @@ max       1247.000000
 | 75% 分位数    | 426    |
 | 最长摘要（max）  | 1247   |
 
+## Question4
+制定分割策略（只用给出方案（存疑））
+- token_len ≤ 512：不分割，整篇摘要作为一个 Document
+
+- token_len > 512：先按语义标签（background / objective / methods / results / conclusions）分组，再对超长语义段进行切分
+- 因为最长的token为1247，所以初步分三组（background，objective一组，methods为一组，最后results，conclusion为一组）
+- 如果在过程中一组再超过512，则再细分，如果单独比如methods一组还是超过，则按多句话合成为一组，不会超过512）
+
