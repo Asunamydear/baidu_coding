@@ -5,5 +5,18 @@
 - 本数据没有title, journal,pub_date，不能检索5年《nature》的文献，存在的字段也没办法当过滤器，有abstract_id（唯一），这个可以当作追溯原文的链接。
 - feature：{'abstract_id': Value('string'), 'label': Value('string'), 'text': Value('string'), 'sentence_id': Value('int64')}
 
-Question 1.2 
--
+## Question 1.2 
+
+（字段完整性检查（字段缺失率？清洗策略：丢弃或填充） 
+ 如果 abstract 缺失率 > 1%，你需要制定清洗策略：是丢弃，还是用 title 填充？）
+
+- text 缺失数量: 0
+- text 缺失率: 0.0
+- text的缺失数量为零所以不需要清洗，如果需要清洗，直接丢弃就好了
+
+## Qusetion 1.3
+（基础质量分析）
+
+- 极短文本数量: 328 （小于20）单句小于20词，所以几乎不存在，基础质量非常高，可以忽略。
+- 极短文本比例: 0.001856863033706593
+
