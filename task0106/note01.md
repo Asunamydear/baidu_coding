@@ -52,5 +52,16 @@
 | 26016823   | 365       |
 | 25965710   | 365       |
 
+## Question2.2
+
+(结构：是否遵循“背景-方法-结果-结论”（IMRaD）结构？)
+
+- 完全遵循，分类标签就是这么分的
+
+## Question2.3
+术语：是否充满缩写（如“EGFR”、“PCI”）？
+
+## Question2.4
+同一概念是否有不同表述（如“heart attack”和“myocardial infarction”）？
 
 
