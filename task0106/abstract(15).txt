@@ -1,0 +1,269 @@
+
+================================================================================
+ABSTRACT ID: 25752109
+================================================================================
+[0] objective: To investigate the clinical effect of negative pressure drainage after septum surgery .
+[1] methods: One hundred and two cases with septum deviation were randomly divided into two groups , i. e. experimental group and controlling one .
+[2] methods: With @ cases in each .
+[3] methods: Degree of comfort and complication of two groups were compared .
+[4] results: The cases in experimental group showed significantly relieved postoperative reaction with negative pressure drainage , when compared with that of controls , the incidence of complication were not increased .
+[5] conclusions: Negative pressure drainage can be taken as one of the ideal materials for hemostasia after septum surgery .
+
+================================================================================
+ABSTRACT ID: 24473376
+================================================================================
+[0] objective: To explore the effect of clinical pathway of health education in patients with kidney transplantation .
+[1] methods: A total of @ patients with kidney transplantation were randomly divided into an experimental group and a control group ( n = @ in each group ) .
+[2] methods: The patients in the control group received traditional health education , and the patients in the experimental group experienced the clinical pathway of health education .
+[3] methods: The effect of health education was assessed and compared .
+[4] results: There was significant difference in the effect of health education between the two groups ( P < @ ) .
+[5] conclusions: Clinical pathway of health education in patients after kidney transplantation can significantly improve the effect of health education .
+
+================================================================================
+ABSTRACT ID: 25407377
+================================================================================
+[0] objective: To examine the association between individual drug use and peer leaders use .
+[1] methods: Analysis of drug use behaviors of @ students randomized into three arms-control , standard , and networked where peers serve as group leaders .
+[2] results: Among the combined male and female group , there was no association between peer leader and individual use .
+[3] results: Among males , peer leader use at baseline was positively associated with individual alcohol use at post-test .
+[4] results: Among females , peer leader use at post-test was negatively associated with marijuana and cigarette use .
+[5] conclusions: Having peer leaders in the network condition decreased the odds of marijuana and cigarette use among females .
+[6] conclusions: The opposite effect was found in males .
+
+================================================================================
+ABSTRACT ID: 24387919
+================================================================================
+[0] objective: To assess the optimal scan delays and contrast injection durations for contrast-enhanced whole-body computed tomography ( CT ) .
+[1] methods: One hundred forty-two patients were randomized into three groups : protocol A-scan delay of @ s after starting contrast injection over @ s ; protocol B-@ and @ s ; and protocol C-@ and @ s , respectively .
+[2] methods: Contrast enhancement and diagnostic acceptability were assessed .
+[3] results: Qualitative assessment was subtle among the three protocols .
+[4] results: Homogenous enhancement of deep veins was more assuredly achieved with protocol C.
+[5] conclusions: With protocol C , qualitatively acceptable enhancement can be obtained in whole-body CT. .
+
+================================================================================
+ABSTRACT ID: 24636143
+================================================================================
+[0] objective: Little is known about learning/adherence after different baby massage teaching strategies .
+[1] objective: We compared the learning/adherence after two strategies .
+[2] methods: Twenty mothers from the group manual-course ( GMC ) and @ from the group manual-orientations ( GMO ) received a booklet .
+[3] methods: GMC participated in a course during the third trimester .
+[4] methods: GMO received verbal instructions during the postpartum hospital stay .
+[5] methods: Multiple-choice and practical tests assessed learning ( GMC : performing strokes on a doll ; GMO : on the baby ) .
+[6] methods: Adherence was measured @ months after childbirth .
+[7] results: No differences were found between the groups in learning/adherence .
+[8] conclusions: Both teaching strategies showed similar and positive results .
+
+================================================================================
+ABSTRACT ID: 25130995
+================================================================================
+[0] background: We investigated whether @ months of androgen suppression plus radiotherapy , with or without @ months of zoledronic acid , is more effective than @ months of neoadjuvant androgen suppression plus radiotherapy with or without zoledronic acid .
+[1] methods: We did an open-label , randomised , @ factorial trial in men with locally advanced prostate cancer ( either T@a N@ M@ prostatic adenocarcinomas with prostate-specific antigen -LSB- PSA -RSB- @ g/L and a Gleason score of @ , or T@b-@ N@ M@ tumours regardless of PSA and Gleason score ) .
+[2] methods: We randomly allocated patients by computer-generated minimisation -- stratified by centre , baseline PSA , tumour stage , Gleason score , and use of a brachytherapy boost -- to one of four groups in a @:@:@:@ ratio .
+[3] methods: Patients in the control group were treated with neoadjuvant androgen suppression with leuprorelin ( @ mg every @ months , intramuscularly ) for @ months ( short-term ) and radiotherapy alone ( designated STAS ) ; this procedure was either followed by another @ months of androgen suppression with leuprorelin ( intermediate-term ; ITAS ) or accompanied by @ months of zoledronic acid ( @ mg every @ months for @ months , intravenously ; STAS plus zoledronic acid ) or by both ( ITAS plus zoledronic acid ) .
+[4] methods: The primary endpoint was prostate cancer-specific mortality .
+[5] methods: This analysis represents the first , preplanned assessment of oncological endpoints , @ years after treatment .
+[6] methods: Analysis was by intention-to-treat .
+[7] methods: This trial is registered with ClinicalTrials.gov , number NCT@ .
+[8] results: Between Oct @ , @ , and Aug @ , @ , @ men were randomly assigned to STAS ( n = @ ) , STAS plus zoledronic acid ( n = @ ) , ITAS ( n = @ ) , and ITAS plus zoledronic acid ( n = @ ) .
+[9] results: Median follow-up was @ years ( IQR @-@ ) .
+[10] results: Cumulative incidences of prostate cancer-specific mortality were @ % ( @ % CI @-@ ) in the STAS group , @ % ( @-@ ) in the STAS plus zoledronic acid group , @ % ( @-@ ) in the ITAS group , and @ % ( @-@ ) in the ITAS plus zoledronic acid group .
+[11] results: Cumulative incidence of all-cause mortality was @ % ( @-@ ) , @ % ( @-@ ) , @ % ( @-@ ) , and @ % ( @-@ ) , respectively .
+[12] results: Neither prostate cancer-specific mortality nor all-cause mortality differed between control and experimental groups .
+[13] results: Cumulative incidence of PSA progression was @ % ( @-@ ) in the STAS group , @ % ( @-@ ) in the STAS plus zoledronic acid group , @ % ( @-@ ) in the ITAS group , and @ % ( @-@ ) in the ITAS plus zoledronic acid group .
+[14] results: Compared with STAS , no difference was noted in PSA progression with ITAS or STAS plus zoledronic acid ; however , ITAS plus zoledronic acid reduced PSA progression ( sub-hazard ratio -LSB- SHR -RSB- @ , @ % CI @-@ ; p = @ ) .
+[15] results: Cumulative incidence of local progression was @ % ( @-@ ) in the STAS group , @ % ( @-@ ) in the STAS plus zoledronic acid group , @ % ( @-@ ) in the ITAS group , and @ % ( @-@ ) in the ITAS plus zoledronic acid group ; no differences were noted between groups .
+[16] results: Cumulative incidences of bone progression were @ % ( @-@ ) , @ % ( @-@ ) , @ % ( @-@ ) , and @ % ( @-@ ) , respectively .
+[17] results: Compared with STAS , STAS plus zoledronic acid increased the risk of bone progression ( SHR @ , @ % CI @-@ ; p = @ ) , but no differences were noted with the other two groups .
+[18] results: Cumulative incidence of distant progression was @ % ( @-@ ) in the STAS group , @ % ( @-@ ) in the STAS plus zoledronic acid group , @ % ( @-@ ) in the ITAS group , and @ % ( @-@ ) in the ITAS plus zoledronic acid group ; no differences were recorded between groups .
+[19] results: Cumulative incidence of secondary therapeutic intervention was @ % ( @-@ ) , @ % ( @-@ ) , @ % ( @-@ ) , and @ % ( @-@ ) , respectively .
+[20] results: Compared with STAS , ITAS plus zoledronic acid reduced the need for secondary therapeutic intervention ( SHR @ , @ % CI @-@ ; p = @ ) ; no differences were noted with the other two groups .
+[21] results: An interaction between trial factors was recorded for Gleason score ; therefore , we did pairwise comparisons between all groups .
+[22] results: Post-hoc analyses suggested that the reductions in PSA progression and decreased need for secondary therapeutic intervention with ITAS plus zoledronic acid were restricted to tumours with a Gleason score of @-@ , and that ITAS was better than STAS in tumours with a Gleason score of @ or lower .
+[23] results: Long-term morbidity and quality-of-life scores were not affected adversely by @ months of androgen suppression or zoledronic acid .
+[24] conclusions: Compared with STAS , ITAS plus zoledronic acid was more effective for treatment of prostate cancers with a Gleason score of @-@ , and ITAS alone was effective for tumours with a Gleason score of @ or lower .
+[25] conclusions: Nevertheless , these findings are based on secondary endpoint data and post-hoc analyses and must be regarded cautiously .
+[26] conclusions: Long - term follow-up is necessary , as is external validation of the interaction between zoledronic acid and Gleason score .
+[27] conclusions: STAS plus zoledronic acid can be ruled out as a potential therapeutic option .
+
+================================================================================
+ABSTRACT ID: 26144908
+================================================================================
+[0] background: Unlike most chronic diseases , osteoporosis treatments are generally limited to a single drug at a fixed dose and frequency .
+[1] background: Nonetheless , no approved therapy is able to restore skeletal integrity in most osteoporotic patients and the long-term use of osteoporosis drugs is controversial .
+[2] background: Thus , many patients are treated with the sequential use of two or more therapies .
+[3] background: The DATA study showed that combined teriparatide and denosumab increased bone mineral density more than either drug alone .
+[4] background: Discontinuing teriparatide and denosumab , however , results in rapidly declining bone mineral density .
+[5] background: In this DATA-Switch study , we aimed to assess the changes in bone mineral density in postmenopausal osteoporotic women who transitioned between treatments .
+[6] methods: This randomised controlled trial ( DATA-Switch ) is a preplanned extension of the denosumab and teriparatide administration study ( DATA ) , in which @ postmenopausal osteoporotic women were randomly assigned to receive @ months of teriparatide ( @ mg daily ) , denosumab ( @ mg every @ months ) , or both drugs .
+[7] methods: In DATA-Switch , women originally assigned to teriparatide received denosumab ( teriparatide to denosumab group ) , those originally assigned to denosumab received teriparatide ( denosumab to teriparatide group ) , and those originally assigned to both received an additional @ months of denosumab alone ( combination to denosumab group ) .
+[8] methods: Bone mineral density at the spine , hip , and wrist were measured @ months , @ months , @ months , and @ months after the drug transitions as were biochemical markers of bone turnover .
+[9] methods: The primary endpoint was the percent change in posterior-anterior spine bone mineral density over @ years .
+[10] methods: Between-group changes were assessed by one-way analysis of variance in our modified intention-to-treat population .
+[11] methods: This study is registered with ClinicalTrials.gov , number NCT@ .
+[12] results: Between Sept @ , @ , and Jan @ , @ , eligible women from the DATA study were enrolled into DATA-Switch .
+[13] results: Of @ potential enrollees from the DATA study , @ completed at least one post-baseline visit .
+[14] results: After @ months , the primary outcome of mean spine bone mineral density increased by @ % ( @ % CI @-@ ) in @ women in the teriparatide to denosumab group , @ % ( @-@ ) in @ women the denosumab to teriparatide group , and @ % ( @-@ ) in @ women in the combination to denosumab group , although this increase did not differ significantly between groups ( for between-group comparisons , p = @ for the teriparatide to denosumab group vs the denosumab to teriparatide group , p = @ for the teriparatide to denosumab group vs the combination to denosumab group , and p = @ for the denosumab to teriparatide group vs the combination to denosumab group ) .
+[15] results: For the bone mineral density secondary outcomes , total hip bone mineral density increased more in the teriparatide to denosumab group ( @ % -LSB- @ % CI @-@ -RSB- ) than in the denosumab to teriparatide group ( @ % -LSB- @-@ -RSB- , p = @ ) , but had the greatest increase in the combination to denosumab group ( @ % -LSB- @-@ -RSB- ; p = @ vs the teriparatide to denosumab group , p < @ vs the denosumab to teriparatide group ) .
+[16] results: Similarly , femoral neck bone mineral density increased more in the teriparatide to denosumab group ( @ % -LSB- @ % CI @-@ -RSB- ) and the combination to denosumab group ( @ % -LSB- @-@ -RSB- ) than in the denosumab to teriparatide group ( @ % -LSB- @-@ -RSB- ; p = @ for teriparatide to denosumab vs denosumab to teriparatide , p = @ for combination to denosumab vs denosumab to teriparatide ) .
+[17] results: Differences between the combination to denosumab group and the teriparatide to denosumab group did not differ significantly ( p = @ ) .
+[18] results: After @ months , radius bone mineral density was unchanged in the teriparatide to denosumab group ( @ % -LSB- @ % CI -@ to @ -RSB- ) , whereas it decreased by -@ % ( -@ to @ ) in the denosumab to teriparatide group , and increased by @ % ( @-@ ) in the combination to denosumab group ( p = @ for the teriparatide to denosumab group vs the combination to denosumab group ; p = @ for the denosumab to teriparatide group vs the combination to denosumab group ) .
+[19] results: One participant in the denosumab to teriparatide group had nephrolithiasis , classified as being possibly related to treatment .
+[20] conclusions: In postmenopausal osteoporotic women switching from teriparatide to denosumab , bone mineral density continued to increase , whereas switching from denosumab to teriparatide results in progressive or transient bone loss .
+[21] conclusions: These results should be considered when choosing the initial and subsequent management of postmenopausal osteoporotic patients .
+
+================================================================================
+ABSTRACT ID: 25481791
+================================================================================
+[0] background: The poly ( ADP-ribose ) polymerase inhibitor olaparib has shown antitumour activity in patients with platinum-sensitive , recurrent , high-grade serous ovarian cancer with or without BRCA@ or BRCA@ mutations .
+[1] background: The aim of this study was to assess the efficacy and tolerability of olaparib in combination with chemotherapy , followed by olaparib maintenance monotherapy , versus chemotherapy alone in patients with platinum-sensitive , recurrent , high-grade serous ovarian cancer .
+[2] methods: In this randomised , open-label , phase @ study , adult patients with platinum-sensitive , recurrent , high-grade serous ovarian cancer who had received up to three previous courses of platinum-based chemotherapy and who were progression free for at least @ months before randomisation received either olaparib ( @ mg capsules twice daily , administered orally on days @-@ of each @-day cycle ) plus paclitaxel ( @ mg/m ( @ ) , administered intravenously on day @ ) and carboplatin ( area under the curve -LSB- AUC -RSB- @ mg/mL per min , according to the Calvert formula , administered intravenously on day @ ) , then olaparib monotherapy ( @ mg capsules twice daily , given continuously ) until progression ( the olaparib plus chemotherapy group ) , or paclitaxel ( @ mg/m ( @ ) on day @ ) and carboplatin ( AUC @ mg/mL per min on day @ ) then no further treatment ( the chemotherapy alone group ) .
+[3] methods: Randomisation was done by an interactive voice response system , stratified by number of previous platinum-containing regimens received and time to disease progression after the previous platinum regimen .
+[4] methods: The primary endpoint was progression-free survival according to Response Evaluation Criteria in Solid Tumors version @ , analysed by intention to treat .
+[5] methods: Prespecified exploratory analyses included efficacy by BRCA mutation status , assessed retrospectively .
+[6] methods: This study is registered with ClinicalTrials.gov , number NCT@ , and has been completed .
+[7] results: Between Feb @ and July @ , @ , @ patients at @ investigational sites in @ countries were enrolled into the study , of whom @ were eligible and were randomly assigned to the two treatment groups ( @ to the olaparib plus chemotherapy group and @ to the chemotherapy alone group ) .
+[8] results: Of these randomised patients , @ were treated in the combination phase ( @ in the olaparib plus chemotherapy group and @ in the chemotherapy alone group ) and @ continued to the maintenance or no further treatment phase ( @ in the olaparib plus chemotherapy group and @ in the chemotherapy alone group ) .
+[9] results: BRCA mutation status was known for @ patients ( either at baseline or determined retrospectively ) : @ ( @ % ) of @ had a BRCA mutation ( @ in the olaparib plus chemotherapy group and @ in the chemotherapy alone group ) .
+[10] results: Progression-free survival was significantly longer in the olaparib plus chemotherapy group ( median @ months -LSB- @ % CI @-@ @ -RSB- ) than in the chemotherapy alone group ( median @ months -LSB- @ % CI @-@ @ ) ( HR @ -LSB- @ % CI @-@ @ -RSB- ; p = @ ) , especially in patients with BRCA mutations ( HR @ -LSB- @-@ @ -RSB- ; p = @ ) .
+[11] results: In the combination phase , adverse events that were reported at least @ % more frequently with olaparib plus chemotherapy than with chemotherapy alone were alopecia ( @ -LSB- @ % -RSB- of @ vs @ -LSB- @ % -RSB- of @ ) , nausea ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , neutropenia ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , diarrhoea ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , headache ( @ -LSB- @ % -RSB- vs seven -LSB- @ % -RSB- ) , peripheral neuropathy ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , and dyspepsia ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) ; most were of mild-to-moderate intensity .
+[12] results: The most common grade @ or higher adverse events during the combination phase were neutropenia ( in @ -LSB- @ % -RSB- of @ patients in the olaparib plus chemotherapy group vs @ -LSB- @ % -RSB- of @ in the chemotherapy alone group ) and anaemia ( seven -LSB- @ % -RSB- vs five -LSB- @ % -RSB- ) .
+[13] results: Serious adverse events were reported in @ ( @ % ) of @ patients in the olaparib plus chemotherapy group and @ of @ ( @ % ) patients in the chemotherapy alone group .
+[14] conclusions: Olaparib plus paclitaxel and carboplatin followed by maintenance monotherapy significantly improved progression-free survival versus paclitaxel plus carboplatin alone , with the greatest clinical benefit in BRCA-mutated patients , and had an acceptable and manageable tolerability profile .
+
+================================================================================
+ABSTRACT ID: 25795409
+================================================================================
+[0] background: Platinum chemotherapy has a role in the treatment of metastatic triple-negative breast cancer but its full potential has probably not yet been reached .
+[1] background: We assessed whether a cisplatin plus gemcitabine regimen was non-inferior to or superior to paclitaxel plus gemcitabine as first-line therapy for patients with metastatic triple-negative breast cancer .
+[2] methods: For this open-label , randomised , phase @ , hybrid-designed trial undertaken at @ institutions or hospitals in China , we included Chinese patients aged @-@ years with previously untreated , histologically confirmed metastatic triple-negative breast cancer , and an ECOG performance status of @-@ .
+[3] methods: These patients were randomly assigned ( @:@ ) to receive either cisplatin plus gemcitabine ( cisplatin @ mg/m ( @ ) on day @ and gemcitabine @ mg/m ( @ ) on days @ and @ ) or paclitaxel plus gemcitabine ( paclitaxel @ mg/m ( @ ) on day @ and gemcitabine @ mg/m ( @ ) on days @ and @ ) given intravenously every @ weeks for a maximum of eight cycles .
+[4] methods: Randomisation was done centrally via an interactive web response system using block randomisation with a size of eight , with no stratification factors .
+[5] methods: Patients and investigator were aware of group assignments .
+[6] methods: The primary endpoint was progression-free survival and analyses were based on all patients who received at least one dose of assigned treatment .
+[7] methods: The margin used to establish non-inferiority was @ .
+[8] methods: If non-inferiority of cisplatin plus gemcitabine compared with paclitaxel plus gemcitabine was achieved , we would then test for superiority .
+[9] methods: The trial is registered with ClinicalTrials.gov , number NCT@ .
+[10] results: From Jan @ , @ , to Nov @ , @ , @ patients were assessed for eligibility and randomly assigned to treatment ( @ in the cisplatin plus gemcitabine group and @ in the paclitaxel plus gemcitabine group ) .
+[11] results: @ patients received at least one dose of assigned chemotherapy and were included in the modified intention-to-treat analysis ( @ per group ) .
+[12] results: After a median follow-up of @ months ( IQR @-@ ) in the cisplatin plus gemcitabine group and @ months ( @-@ ) in the paclitaxel plus gemcitabine group , the hazard ratio for progression-free survival was @ ( @ % CI @-@ ; pnon-inferiority < @ , psuperiority = @ , thus cisplatin plus gemcitabine was both non-inferior to and superior to paclitaxel plus gemcitabine .
+[13] results: Median progression-free survival was @ months ( @ % CI @-@ ) in the cisplatin plus gemcitabine group and @ months ( @-@ ) in the paclitaxel plus gemcitabine group .
+[14] results: Grade @ or @ adverse events that differed significantly between the two groups included nausea ( eight -LSB- @ % -RSB- vs one -LSB- < @ % -RSB- ) , vomiting ( @ -LSB- @ % -RSB- vs one -LSB- < @ % -RSB- ) , musculoskeletal pain ( none vs ten -LSB- @ % -RSB- ) , anaemia ( @ -LSB- @ % -RSB- vs six -LSB- @ % -RSB- ) , and thrombocytopenia ( @ -LSB- @ % -RSB- vs three -LSB- @ % -RSB- ) , for the cisplatin plus gemcitabine compared with the paclitaxel plus gemcitabine groups , respectively .
+[15] results: In addition , patients in the cisplatin plus gemcitabine group had significantly fewer events of grade @-@ alopecia ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) and peripheral neuropathy ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , but more grade @-@ anorexia ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , constipation ( @ -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- ) , hypomagnesaemia ( @ -LSB- @ % -RSB- vs five -LSB- @ % -RSB- ) , and hypokalaemia ( @ -LSB- @ % -RSB- vs two -LSB- @ % -RSB- ) .
+[16] results: Serious drug-related adverse events were seen in three patients in the paclitaxel plus gemcitabine group ( interstitial pneumonia , anaphylaxis , and severe neutropenia ) and four in the cisplatin plus gemcitabine group ( pathological bone fracture , thrombocytopenia with subcutaneous haemorrhage , severe anaemia , and cardiogenic syncope ) .
+[17] results: There were no treatment-related deaths .
+[18] conclusions: Cisplatin plus gemcitabine could be an alternative or even the preferred first-line chemotherapy strategy for patients with metastatic triple-negative breast cancer .
+
+================================================================================
+ABSTRACT ID: 24717919
+================================================================================
+[0] background: Surgery for colorectal liver metastases results in an overall survival of about @ % at @ years .
+[1] background: Progression-free survival is increased with the addition of oxaliplatin and fluorouracil chemotherapy .
+[2] background: The addition of cetuximab to these chemotherapy regimens results in an overall survival advantage in patients with advanced disease who have the KRAS exon @ wild-type tumour genotype .
+[3] background: We aimed to assess the benefit of addition of cetuximab to standard chemotherapy in patients with resectable colorectal liver metastasis .
+[4] methods: Patients with KRAS exon @ wild-type resectable or suboptimally resectable colorectal liver metastases were randomised in a @:@ ratio to receive chemotherapy with or without cetuximab before and after liver resection .
+[5] methods: Randomisation was done using minimisation with factors of surgical centre , poor prognostic tumour ( one or more of : @ metastases , N@ disease , or poor differentiation of primary tumour ) , and previous adjuvant treatment with oxaliplatin .
+[6] methods: Chemotherapy consisted of oxaliplatin @ mg/m ( @ ) intravenously over @ h and fluorouracil bolus @ mg/m ( @ ) intravenously over @ min , followed by a @ h infusion of fluorouracil @ mg/m ( @ ) repeated every @ weeks ( regimen one ) or oxaliplatin @ mg/m ( @ ) intravenously over @ h and oral capecitabine @ mg/m ( @ ) twice daily on days @-@ repeated every @ weeks ( regimen two ) .
+[7] methods: Patients who had received adjuvant oxaliplatin could receive irinotecan @ mg/m ( @ ) intravenously over @ min with fluorouracil instead of oxaliplatin ( regimen three ) .
+[8] methods: Cetuximab was given as an intravenous dose of @ mg/m ( @ ) every @ weeks with regimen one and three or a loading dose of @ mg/m ( @ ) followed by a weekly infusion of @ mg/m ( @ ) with regimen two .
+[9] methods: The primary endpoint was progression-free survival .
+[10] methods: This is an interim analysis , up to Nov @ , @ , when the trial was closed , having met protocol-defined futility criteria .
+[11] methods: This trial is registered , ISRCTN@ .
+[12] results: @ KRAS exon @ wild-type patients were randomised to chemotherapy alone and @ to chemotherapy with cetuximab between Feb @ , @ , and Nov @ , @ patients in the chemotherapy alone group and @ in the chemotherapy plus cetuximab group were included in the primary analysis .
+[13] results: The median follow-up was @ months ( @ % CI @-@ @ ) in the chemotherapy alone group and @ months ( @-@ @ ) in the chemotherapy plus cetuximab group .
+[14] results: With an overall median follow-up of @ months ( @ % CI @-@ @ ) and @ ( @ % ) of @ required events observed , progression-free survival was significantly shorter in the chemotherapy plus cetuximab group than in the chemotherapy alone group ( @ months -LSB- @ % CI @-@ @ -RSB- vs @ months -LSB- @ % CI @-@ @ -RSB- , hazard ratio @ , @ % CI @-@ @ , p = @ ) .
+[15] results: The most common grade @ or @ adverse events were low neutrophil count ( @ -LSB- @ % -RSB- preoperatively in the chemotherapy alone group vs six -LSB- @ % -RSB- in the chemotherapy plus cetuximab group ; four -LSB- @ % -RSB- vs eight -LSB- @ % -RSB- postoperatively ) , embolic events ( six -LSB- @ % -RSB- vs eight -LSB- @ % -RSB- preoperatively ; two -LSB- @ % -RSB- vs three -LSB- @ % -RSB- postoperatively ) , peripheral neuropathy ( six -LSB- @ % -RSB- vs one -LSB- @ % -RSB- preoperatively ; two -LSB- @ % -RSB- vs four -LSB- @ % -RSB- postoperatively ) , nausea or vomiting ( four -LSB- @ % -RSB- vs six -LSB- @ % -RSB- preoperatively ; four -LSB- @ % -RSB- vs two -LSB- @ % -RSB- postoperatively ) , and skin rash ( two -LSB- @ % -RSB- vs @ -LSB- @ % -RSB- preoperatively ; @ vs eight -LSB- @ % -RSB- postoperatively ) .
+[16] results: There were three deaths in the chemotherapy plus cetuximab group ( one interstitial lung disease and pulmonary embolism , one bronchopneumonia , and one pulmonary embolism ) and one in the chemotherapy alone group ( heart failure ) that might have been treatment related .
+[17] conclusions: Addition of cetuximab to chemotherapy and surgery for operable colorectal liver metastases in KRAS exon @ wild-type patients results in shorter progression-free survival .
+[18] conclusions: Translational investigations to explore the molecular basis for this unexpected interaction are needed but at present the use of cetuximab in this setting can not be recommended .
+
+================================================================================
+ABSTRACT ID: 25679343
+================================================================================
+[0] methods: Randomized , controlled , crossover trial .
+[1] objective: To examine the effects of elastic therapeutic taping ( ETT ) applied to the lumbar paraspinal region on back muscle endurance ( BME ) compared to no tape or a rigid therapeutic taping ( RTT ) procedure in individuals with nonspecific low back pain .
+[2] background: Elastic therapeutic taping is an increasingly popular intervention for clinicians who treat patients with low back pain .
+[3] background: However , no studies have investigated the effect of ETT on back extensor muscle performance in a symptomatic population .
+[4] methods: We measured BME in @ patients ( mean SD age , @ @ years ; @ % female ) with nonspecific low back pain .
+[5] methods: Back muscle endurance was measured using the Biering-Srensen test under @ different conditions : ETT , no tape , and RTT .
+[6] methods: For the ETT condition , the tape was applied over the paraspinal muscles according to the Kinesio Tex taping protocol .
+[7] methods: The RTT condition consisted of the same tape configuration but using nonelastic athletic tape .
+[8] methods: All participants received each testing condition in random order , with @ to @ days between each condition .
+[9] methods: Differences in BME between the @ testing conditions were explored with repeated-measures analyses of variance .
+[10] results: There were no differences in BME between ETT and RTT , or between the RTT and no-tape conditions .
+[11] results: The difference in BME between the ETT and no-tape conditions was statistically significant ( mean difference , @ seconds ; @ % confidence interval : @ , @ ; P = @ ) but within the threshold of measurement error .
+[12] conclusions: Back muscle endurance was higher with ETT applied over the paraspinal musculature when compared to a no-tape condition .
+[13] conclusions: However , the magnitude of difference did not exceed measurement error .
+[14] conclusions: There was no difference in BME when using elastic or rigid therapeutic tape .
+
+================================================================================
+ABSTRACT ID: 24844551
+================================================================================
+[0] background: We aimed to examine the effects of topical hypothermia on inflammatory markers in patients undergoing coronary artery bypass surgery .
+[1] methods: Fifty patients undergoing isolated coronary artery bypass surgery were included the study .
+[2] methods: They were randomised to two groups .
+[3] methods: Mild hypothermic cardiopulmonary bypass ( @-@C ) was performed on both groups using standardised anaesthesiology and surgical techniques .
+[4] methods: Furthermore , topical cooling with @C saline was performed on patients in group I.
+[5] methods: We recorded peri-operative and intra-operative results of blood samples , pre-operative and postoperative outcomes of electrocardiography and echocardiography , diaphragm levels on X-ray , and the necessity of positive inotropic medication and intra-aortic balloon pump ( IABP ) .
+[6] results: Time-dependent changes in blood samples were compared between the two groups .
+[7] results: The changes on complement @ ( C@ ) and TNF - levels were more significant in group I than group II ( p < @ and p < @ , respectively ) .
+[8] results: Spontaneous restoration rate of sinus rhythm was higher in group II than group I ( @ vs @ % , p < @ ) .
+[9] results: Atrial fibrillation was seen in six patients in group I and one patient in group II ( p < @ ) .
+[10] results: IABP was performed on four patients ( @ % ) in group I ( p < @ ) .
+[11] results: Diaphragmatic paralysis was seen in seven patients in group I but not in group II ( p < @ ) .
+[12] results: Partial pericardiotomy rates were compared within the groups but there was no statistically significant difference ( p > @ ) .
+[13] results: One patient in group I died on the @th postoperative day , but operative mortality rate was not statistically significant between the two groups ( p > @ ) .
+[14] conclusions: Topical hypothermia had a negative impact on inflammatory markers and postoperative morbidities .
+
+================================================================================
+ABSTRACT ID: 24655865
+================================================================================
+[0] background: Various surgical meshes are used in the repair of inguinal hernia and are associated with numerous complications .
+[1] background: Our main objective in this study was to determine whether a biologic hernia matrix is equivalent to polypropylene mesh in an open inguinal hernia repair using the Lichtenstein technique .
+[2] methods: A prospective , randomized , double-blinded , single-center trial was conducted to evaluate the efficacy of a biologic Inguinal Hernia Matrix ( IHM ; Cook Medical ) compared with polypropylene ( PP ) mesh using Lichtenstein 's inguinal hernia repair in a @-year outcomes study .
+[3] methods: Patients were evaluated for recurrence and complications by a blinded surgeon at @ weeks , @ months , @ months , and @ year post procedure .
+[4] methods: Patient demographics , including comorbidities and nutrition status , were recorded .
+[5] methods: Intraoperative information including hernia type and location , procedure time , level of difficulty , degree of surgeon frustration , and surgical experience were collected .
+[6] results: One hundred male patients provided informed consent and were randomized into the study in a @:@ fashion .
+[7] results: There were no significant differences in degree of difficulty and level of frustration between the @ groups .
+[8] results: At @-year follow-up , @ recurrences were diagnosed in the IHM group as compared with none in the PP group ( p = @ ) .
+[9] results: Persistent pain trended higher in the PP group ( @ % vs @ % ) .
+[10] results: All @ recurrences occurred in the direct inguinal hernia group and were performed by attendings in the first year post training ( @ different attendings ) .
+[11] results: No recurrences occurred in patients operated on by more senior surgeons .
+[12] conclusions: The IHM hernioplasty compares favorably with PP mesh at @-year follow-up with similar recurrence rates and complications .
+[13] conclusions: Surgeon experience appears to be a major factor affecting successful outcomes .
+
+================================================================================
+ABSTRACT ID: 26016823
+================================================================================
+[0] background: Cardiovascular disease is a major cause of morbidity and mortality in patients with chronic obstructive pulmonary disease ( COPD ) .
+[1] background: Preliminary studies have shown that both airflow obstruction and systemic inflammation may contribute to endothelial dysfunction in COPD .
+[2] background: Lung volume reduction surgery ( LVRS ) is a treatment option in selected patients with COPD with emphysema that improves breathing mechanics and lung function .
+[3] objective: To determine the effect of LVRS on endothelial function and systemic inflammation .
+[4] methods: We conducted a randomized controlled trial in @ patients scheduled for LVRS .
+[5] methods: In the intervention group , immediate LVRS was performed after baseline evaluation followed by reassessment @ months later .
+[6] methods: In the control group , reassessment followed @ months after baseline evaluation , and thereafter LVRS was performed .
+[7] results: The primary outcome measures were the treatment effect on endothelial function and systemic inflammation .
+[8] results: In the LVRS group @ patients completed the trial and @ in the control group .
+[9] results: LVRS led to a relative reduction in mean ( SD ) residual volume/total lung capacity of -@ % ( @ % ) and an increase in FEV@ of @ % ( @ % ) .
+[10] results: Flow-mediated dilatation of the brachial artery increased in the intervention group as compared with the control group ( +@ % ; @ % confidence interval , +@ to +@ % ; P < @ ) , whereas there was no significant change in systemic inflammation .
+[11] results: A significant treatment effect on mean blood pressure was observed ( -@ mm Hg ; @ % confidence interval , -@ to -@ ; P = @ ) .
+[12] conclusions: Endothelial function and blood pressure are improved @ months after LVRS in patients with severe COPD and emphysema .
+[13] conclusions: LVRS may therefore have beneficial effects on cardiovascular outcomes .
+[14] conclusions: Clinical trial registered with www.clinicaltrials.gov ( NCT @ ) .
+
+================================================================================
+ABSTRACT ID: 25965710
+================================================================================
+[0] background: Cardiovascular ( CV ) disease is the leading cause of morbidity and mortality in patients with type @ diabetes mellitus ( T@DM ) .
+[1] background: Furthermore , patients with T@DM and acute coronary syndrome ( ACS ) have a particularly high risk of CV events .
+[2] background: The glucagon-like peptide @ receptor agonist , lixisenatide , improves glycemia , but its effects on CV events have not been thoroughly evaluated .
+[3] methods: ELIXA ( www.clinicaltrials.gov no .
+[4] methods: NCT@ ) is a randomized , double-blind , placebo-controlled , parallel-group , multicenter study of lixisenatide in patients with T@DM and a recent ACS event .
+[5] methods: The primary aim is to evaluate the effects of lixisenatide on CV morbidity and mortality in a population at high CV risk .
+[6] methods: The primary efficacy end point is a composite of time to CV death , nonfatal myocardial infarction , nonfatal stroke , or hospitalization for unstable angina .
+[7] methods: Data are systematically collected for safety outcomes , including hypoglycemia , pancreatitis , and malignancy .
+[8] results: Enrollment began in July @ and ended in August @ ; @,@ patients from @ countries were randomized .
+[9] results: Of these , @ % are men and @ % are white ; at baseline , the mean SD age was @ @ years , body mass index was @ @ kg/m ( @ ) , and duration of T@DM was @ @ years .
+[10] results: The qualifying ACS was a myocardial infarction in @ % and unstable angina in @ % .
+[11] results: The study will continue until the positive adjudication of the protocol-specified number of primary CV events .
+[12] conclusions: ELIXA will be the first trial to report the safety and efficacy of a glucagon-like peptide @ receptor agonist in people with T@DM and high CV event risk .

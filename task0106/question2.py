@@ -44,3 +44,7 @@ median5 = (
 )
 
 print(median5[["abstract_id", "token_len"]])
+
+
+abstract_df.to_csv("abstract_df.csv", index=False)
+print("Saved abstract_df.csv")

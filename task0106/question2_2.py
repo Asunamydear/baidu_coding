@@ -1,22 +1,26 @@
 from datasets import load_dataset
-import pandas as pd
 
-from transformers import AutoTokenizer
-
-tokenizer = AutoTokenizer.from_pretrained(
-    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-    use_fast=True
-)
-## 这个查询之后tokenizer 和deepseek-r1:8b 的内容是一样的
+# 加载数据
 ds = load_dataset("armanc/pubmed-rct20k")
 df = ds["train"].to_pandas()
 
-# 保证句子顺序
-df = df.sort_values(["abstract_id", "sentence_id"])
+# 这 15 个 abstract_id（来自你的三张表）
+abstract_ids = [
+    "25752109", "24473376", "25407377", "24387919", "24636143",  # 最短
+    "25130995", "26144908", "25481791", "25795409", "24717919",  # 最长
+    "25679343", "24844551", "24655865", "26016823", "25965710"   # 中位数
+]
 
-# 合并成摘要
-abstract_df = (
-    df.groupby("abstract_id")["text"]
-      .apply(lambda x: " ".join(x))
-      .reset_index()
-)
+# 逐个打印
+for aid in abstract_ids:
+    print("\n" + "=" * 80)
+    print(f"ABSTRACT ID: {aid}")
+    print("=" * 80)
+
+    abstract = (
+        df[df["abstract_id"] == aid]
+        .sort_values("sentence_id")
+    )
+
+    for _, row in abstract.iterrows():
+        print(f"[{row['sentence_id']}] {row['label']}: {row['text']}")
