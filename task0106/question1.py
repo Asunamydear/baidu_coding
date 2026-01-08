@@ -28,3 +28,4 @@ short_text_ratio = short_text_count / len(df)
 
 print("极短文本数量:", short_text_count)
 print("极短文本比例:", short_text_ratio)
+
