@@ -25,7 +25,13 @@ def count_tokens(text):
     return len(tokenizer.encode(text, add_special_tokens=False))
 
 abstract_df["token_len"] = abstract_df["text"].apply(count_tokens)
+#计算大于512token的内容
+total = len(abstract_df)
+over_512 = (abstract_df["token_len"] > 512).sum()
+ratio = over_512 / total * 100
 
+print(f">512 tokens: {over_512}/{total} ({ratio:.2f}%)")
+#打印最短5篇，最长5篇，中位数5篇abstract
 print(abstract_df["token_len"].describe())
 
 shortest5 = abstract_df.sort_values("token_len", ascending=True).head(5)
@@ -46,5 +52,3 @@ median5 = (
 print(median5[["abstract_id", "token_len"]])
 
 
-abstract_df.to_csv("abstract_df.csv", index=False)
-print("Saved abstract_df.csv")
