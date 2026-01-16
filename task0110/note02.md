@@ -34,4 +34,22 @@
             	"token_count": self._count_tokens(full_text),
         	}
 		
-- 
+- 如代码所示，生成chunks.jsonl文件
+
+## question3
+- 如代码所示，生成stats.json文件
+
+## question4
+
+- {
+  "processed_date": "2026-01-17T03:07:41.349256",
+  "data_split": "train",
+  "original_documents": 15000,
+  "docs_split_over_512": 1292,
+  "total_chunks": 16679,
+  "chunks_per_doc": 1.1119333333333334,
+  "chunk_size": 400,
+  "chunk_overlap": 80,
+  "max_tokens_no_split": 512,
+  "output_file": "chunks.jsonl"
+}

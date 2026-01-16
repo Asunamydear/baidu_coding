@@ -1,6 +1,7 @@
 from datasets import load_dataset
 from transformers import AutoTokenizer
 import json
+import pandas as pd
 
 
 tokenizer = AutoTokenizer.from_pretrained(
@@ -112,3 +113,21 @@ if split_docs > 0:
     avg_chunks = sum(split_chunk_counts) / len(split_chunk_counts)
     print("avg chunks per split doc =", round(avg_chunks, 2))
 print("total chunks written =", len(all_chunks))
+
+stats = {
+    "processed_date": pd.Timestamp.now().isoformat(),
+    "data_split": "train",
+    "original_documents": total_docs,                 # 15000 篇摘要
+    "docs_split_over_512": split_docs,                # >512 的摘要数
+    "total_chunks": len(all_chunks),                  # 最终 chunk 总数
+    "chunks_per_doc": len(all_chunks) / total_docs if total_docs > 0 else 0,
+    "chunk_size": CHUNK_SIZE,
+    "chunk_overlap": CHUNK_OVERLAP,
+    "max_tokens_no_split": MAX_TOKENS,
+    "output_file": out_path,
+}
+
+with open("stats.json", "w", encoding="utf-8") as f:
+    json.dump(stats, f, ensure_ascii=False, indent=2)
+
+print("stats saved to: stats.json")
