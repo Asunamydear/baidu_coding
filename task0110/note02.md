@@ -41,6 +41,7 @@
 
 ## question4
 
+- 日志
 - {
   "processed_date": "2026-01-17T03:07:41.349256",
   "data_split": "train",
@@ -53,3 +54,18 @@
   "max_tokens_no_split": 512,
   "output_file": "chunks.jsonl"
 }
+- 关键是overlopsize 手动设置成80
+
+## question5
+- 总块数
+>Total chunks = 16679
+>512 chunks = 0
+- 质量验证的文本块进行质量抽样检查
+抽10个，块数是合格的
+文本可读没有空文本
+- 一共1292篇发生分割
+- 数据没有标题
+- 分割部分（选三个）：overlop部分非常符合
+>eg:Overlap check:
+Exact overlap match: True
+Common overlap tokens count: 35
