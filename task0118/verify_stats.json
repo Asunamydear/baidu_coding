@@ -1,0 +1,8 @@
+{
+  "total_vectors": 16679,
+  "self_similarity_sentence_level": true,
+  "metadata_filter_short_long_multi": true,
+  "empty_query_test": true,
+  "long_query_test": true,
+  "embedding_model": "BAAI/bge-small-en-v1.5"
+}

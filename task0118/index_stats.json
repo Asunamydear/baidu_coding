@@ -2,7 +2,8 @@
   "collection_name": "pubmed_rct20k",
   "total_chunks": 16679,
   "embedding_model": "BAAI/bge-small-en-v1.5",
-  "index_built_at": "2026-01-24T20:14:10.564550",
+  "embedding_dimension": 384,
+  "index_built_at": "2026-01-24T22:56:03.889312",
   "metadata_fields": [
     "doc_id",
     "chunk_index",
