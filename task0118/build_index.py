@@ -97,50 +97,50 @@ def main():
     with open("index_stats.json", "w", encoding="utf-8") as f:
         json.dump(index_stats, f, ensure_ascii=False, indent=2)
 
-    # 3 质量验证工作：基础检索测试//这个功能做的不好，后续单独做一个文件运行，
-    query_text = "treatment effect on endothelial function in COPD"
-    query_vec = model.encode([query_text])[0]
-
-    results = collection.query(
-        query_embeddings=[query_vec],
-        n_results=TOP_K
-    )
-
-    print("\nTEST QUERY:", query_text)
-    for i in range(TOP_K):
-        print("\nRank", i + 1)
-        print("Distance =", results["distances"][0][i])
-        print("Chunk ID =", results["ids"][0][i])
-        print("Metadata =", results["metadatas"][0][i])
-        print("Text head =", results["documents"][0][i][:200])
-
-    # 质量验证：自相似性与边界情况
-    verify_stats = {
-        "total_vectors": collection.count(),
-        "test_query": query_text,
-        "returned_results": TOP_K,
-        "empty_query_handled": True,
-        "long_query_handled": True
-    }
-    # 元数据过滤检索（示例：只要 token_count < 400 的 chunk）//后续单独做一个过滤检索，这里 做个示范
-    filtered_results = collection.query(
-        query_embeddings=[query_vec],
-        n_results=TOP_K,
-        where={"token_count": {"$lt": 400}}
-    )
-
-    print("\nFILTERED QUERY (token_count < 400):", query_text)
-    for i in range(len(filtered_results["ids"][0])):
-        print("\nRank", i + 1)
-        print("Distance =", filtered_results["distances"][0][i])
-        print("Chunk ID =", filtered_results["ids"][0][i])
-        print("Metadata =", filtered_results["metadatas"][0][i])
-        print("Text head =", filtered_results["documents"][0][i][:200])
-
-    with open("verify_stats.json", "w", encoding="utf-8") as f:
-        json.dump(verify_stats, f, ensure_ascii=False, indent=2)
-
-    print("\nSaved verify_stats.json")
+    # # 3 质量验证工作：基础检索测试//这个功能做的不好，后续单独做一个文件运行，
+    # query_text = "treatment effect on endothelial function in COPD"
+    # query_vec = model.encode([query_text])[0]
+    #
+    # results = collection.query(
+    #     query_embeddings=[query_vec],
+    #     n_results=TOP_K
+    # )
+    #
+    # print("\nTEST QUERY:", query_text)
+    # for i in range(TOP_K):
+    #     print("\nRank", i + 1)
+    #     print("Distance =", results["distances"][0][i])
+    #     print("Chunk ID =", results["ids"][0][i])
+    #     print("Metadata =", results["metadatas"][0][i])
+    #     print("Text head =", results["documents"][0][i][:200])
+    #
+    # # 质量验证：自相似性与边界情况
+    # verify_stats = {
+    #     "total_vectors": collection.count(),
+    #     "test_query": query_text,
+    #     "returned_results": TOP_K,
+    #     "empty_query_handled": True,
+    #     "long_query_handled": True
+    # }
+    # # 元数据过滤检索（示例：只要 token_count < 400 的 chunk）//后续单独做一个过滤检索，这里 做个示范
+    # filtered_results = collection.query(
+    #     query_embeddings=[query_vec],
+    #     n_results=TOP_K,
+    #     where={"token_count": {"$lt": 400}}
+    # )
+    #
+    # print("\nFILTERED QUERY (token_count < 400):", query_text)
+    # for i in range(len(filtered_results["ids"][0])):
+    #     print("\nRank", i + 1)
+    #     print("Distance =", filtered_results["distances"][0][i])
+    #     print("Chunk ID =", filtered_results["ids"][0][i])
+    #     print("Metadata =", filtered_results["metadatas"][0][i])
+    #     print("Text head =", filtered_results["documents"][0][i][:200])
+    #
+    # with open("verify_stats.json", "w", encoding="utf-8") as f:
+    #     json.dump(verify_stats, f, ensure_ascii=False, indent=2)
+    #
+    # print("\nSaved verify_stats.json")
 
 
 if __name__ == "__main__":

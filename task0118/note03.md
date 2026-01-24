@@ -45,4 +45,4 @@ text_head: Cardiovascular disease is a major cause of morbidity and mortality in
 元数据过滤机制可以正常工作，并能有效控制检索范围。
 
 #### question 5 
-质量验证见代码
+质量验证见代码，质量验证在text_verify,模型运行和向量创建过程在build_index
