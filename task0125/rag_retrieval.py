@@ -26,16 +26,72 @@ MAX_QUERY_CHARS = 2000
 MAX_QUERY_WORDS = 300
 
 
-# ====== Static medical resources (示例，可扩展) ======
+# ====== Static medical resources ======
 MEDICAL_SYNONYMS: Dict[str, List[str]] = {
+    # ---- Cardiovascular ----
     "mi": ["myocardial infarction", "heart attack"],
-    "t2dm": ["type 2 diabetes mellitus", "type 2 diabetes"],
-    "htn": ["hypertension", "high blood pressure"],
     "cvd": ["cardiovascular disease", "cardiovascular diseases"],
+    "cad": ["coronary artery disease", "coronary heart disease"],
+    "hf": ["heart failure", "cardiac failure"],
+    "af": ["atrial fibrillation"],
+    "htn": ["hypertension", "high blood pressure"],
+
+    # ---- Diabetes / Metabolic ----
+    "t2dm": ["type 2 diabetes mellitus", "type 2 diabetes"],
+    "t1dm": ["type 1 diabetes mellitus", "type 1 diabetes"],
+    "dm": ["diabetes mellitus", "diabetes"],
+    "ir": ["insulin resistance"],
+    "hba1c": ["glycated hemoglobin", "hemoglobin a1c"],
+
+    # ---- Lipid / Obesity ----
+    "ldl": ["low density lipoprotein"],
+    "hdl": ["high density lipoprotein"],
+    "tg": ["triglycerides"],
+    "bmi": ["body mass index"],
+    "obesity": ["overweight", "adiposity"],
+
+    # ---- Inflammation / Biomarkers ----
+    "crp": ["c-reactive protein"],
+    "hs-crp": ["high sensitivity c-reactive protein"],
+    "il-6": ["interleukin 6"],
+    "tnf": ["tumor necrosis factor"],
+
+    # ---- Study / Outcome terms (常见 RCT 语义) ----
+    "rr": ["relative risk"],
+    "or": ["odds ratio"],
+    "hr": ["hazard ratio"],
+    "ci": ["confidence interval"],
+    "rct": ["randomized controlled trial"],
 }
 
 MEDICAL_PATTERNS: Dict[str, str] = {
-    "drug": r"\b(aspirin|metformin|atorvastatin|warfarin|insulin)\b",
+    # ---- Drugs ----
+    "drug": r"\b("
+            r"aspirin|metformin|atorvastatin|warfarin|insulin|"
+            r"clopidogrel|simvastatin|rosuvastatin|ezetimibe|"
+            r"glipizide|glyburide|liraglutide|semaglutide|"
+            r"empagliflozin|dapagliflozin"
+            r")\b",
+
+    # ---- Diseases ----
+    "disease": r"\b("
+               r"diabetes mellitus|type 2 diabetes|type 1 diabetes|"
+               r"hypertension|heart failure|myocardial infarction|"
+               r"cardiovascular disease|coronary artery disease|"
+               r"stroke|atrial fibrillation"
+               r")\b",
+
+    # ---- Procedures / Interventions ----
+    "procedure": r"\b("
+                 r"angioplasty|stent implantation|bypass surgery|"
+                 r"pci|cabg"
+                 r")\b",
+
+    # ---- Study type ----
+    "study_type": r"\b("
+                  r"randomized controlled trial|clinical trial|"
+                  r"cohort study|meta-analysis|systematic review"
+                  r")\b",
 }
 
 
