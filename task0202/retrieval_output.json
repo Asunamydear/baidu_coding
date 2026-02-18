@@ -1,0 +1,198 @@
+{
+  "created_at": "2026-02-19T03:55:26.196879",
+  "query": "metformin cardiovascular disease",
+  "query_info": {
+    "clean_query": "metformin cardiovascular disease",
+    "filters": {},
+    "vector_query": "Represent this question for searching relevant passages: metformin cardiovascular disease | metformin; cardiovascular disease",
+    "keyword_query": "metformin cardiovascular disease | metformin; cardiovascular disease"
+  },
+  "settings": {
+    "fusion": "weighted",
+    "top_n_candidates": 20,
+    "top_k_final": 10,
+    "rerank_model": "BAAI/bge-reranker-base"
+  },
+  "references": [
+    {
+      "rank": 1,
+      "doc_id": "24755906",
+      "uid": "24755906_0",
+      "source": "vector",
+      "rerank_score": 3.01611328125,
+      "fusion_score": 0.956477135828547,
+      "vector_score": 0.7803692817687988,
+      "bm25_score": 14.465324548714026,
+      "text_head": "Large prospective studies in patients with type @ diabetes mellitus have demonstrated that metformin treatment improves cardiovascular prognosis , independent of glycemic control.",
+      "text": "Large prospective studies in patients with type @ diabetes mellitus have demonstrated that metformin treatment improves cardiovascular prognosis , independent of glycemic control . Administration of metformin potently limits infarct size in murine models of myocardial infarction . This study examined , for the first time in humans , whether metformin limits ischemia-reperfusion ( IR ) injury in vivo using a well-validated forearm model of endothelial IR-injury . Twenty-eight healthy volunteers ( age @ years , @ male/@ female ) were randomized between pretreatment with metformin ( @ mg three times a day for @ days ) or no treatment in a Prospective Randomized Open Blinded Endpoint study . Brachial artery flow mediated dilation ( FMD ) was measured before and after @ minutes of forearm ischemia and @ minutes of reperfusion . FMD analysis was performed offline by investigators blinded for the treatment arm . Baseline FMD did not differ between metformin pretreatment and no pretreatment ( @ % and @ % , respectively , p = @ , n = @ ) . FMD was significantly lower after forearm IR in both treatment arms ( @ % and @ % , respectively , P < @ in both conditions ) . A linear mixed model analysis revealed that metformin treatment did not prevent the decrease in FMD by IR . A @ day treatment with metformin in healthy , middle-aged subjects does not protect against endothelial IR-injury , measured with brachial artery FMD after forearm ischemia . Further studies are needed to clarify what mechanism underlies the cardiovascular benefit of metformin treatment .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 327,
+        "raw_id": "24755906"
+      }
+    },
+    {
+      "rank": 2,
+      "doc_id": "25366037",
+      "uid": "25366037_0",
+      "source": "vector",
+      "rerank_score": 2.151237964630127,
+      "fusion_score": 0.9384734161969454,
+      "vector_score": 0.7738639116287231,
+      "bm25_score": 13.798767397360898,
+      "text_head": "Cardiovascular disease , endothelial dysfunction , and oxidative stress are common complications among patients with type @ diabetes ( T@DM ).",
+      "text": "Cardiovascular disease , endothelial dysfunction , and oxidative stress are common complications among patients with type @ diabetes ( T@DM ) . In addition to the average blood glucose concentration , glycemic variability may be an important factor for the development of chronic diabetes complications . Patients with T@DM are treated with various types of oral glucose-lowering drugs . Exercise is considered to benefit the health of both healthy and unhealthy individuals , which has been confirmed by a number of scientific research studies in which the participants ' health improved . Our general aim in this study will be to evaluate glucose variability after submaximal exercise test in patients receiving treatment with either vildagliptin or glibenclamide . The specific aims of this study are to evaluate the oxidative stress , endothelial function , and metabolic and cardiovascular responses to exercise under treatment with vildagliptin or glibenclamide . All these responses are important in patients with T@DM . This study is a PROBE ( Prospective , Randomized , Open-label , Blinded-Endpoint ) design clinical trial . The estimated sample needed is @ patients with T@DM . In addition to the routine treatment ( metformin ) , patients will receive a second drug orally for @ weeks : the METV group will receive metformin plus vildagliptin ( @ mg twice daily ) , and the METG group will receive metformin plus glibenclamide ( @ to @ mg twice daily . ) Before and after intervention , evaluation of glycemic variability , endothelial function , oxidative stress , and metabolic and cardiovascular response will be performed at rest , during and after a submaximal exercise test ( @ minutes , with an intensity based at @ % under the heart rate at the second threshold ) . In addition to drug treatment , exercise is recommended for treatment of glycemic control in patients with T@DM , especially for its beneficial effects on blood glucose and HbA@c . Few studies have determined the effects of the association between exercise and oral glucose-lowering drugs . The study will be conducted to assess the metabolic and cardiovascular responses at rest , and during and after submaximal exercise in patients receiving one of two oral glucose-lowering drugs ( vildagliptin or glibenclamide ) .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 457,
+        "raw_id": "25366037"
+      }
+    },
+    {
+      "rank": 3,
+      "doc_id": "25090264",
+      "uid": "25090264_0",
+      "source": "vector",
+      "rerank_score": 2.0889081954956055,
+      "fusion_score": 0.958556185710477,
+      "vector_score": 0.7612495422363281,
+      "bm25_score": 15.499674031576713,
+      "text_head": "Type @ diabetes is known to be associated with increasing cardiovascular mortality.",
+      "text": "Type @ diabetes is known to be associated with increasing cardiovascular mortality . Malondialdehyde-modified LDL ( MDA-LDL ) is an oxidized LDL and is increased in patients with diabetes or hypertriglyceridemia . Elevated MDA-LDL has been reported to be a risk factor of atherosclerosis or cardiovascular disease . Sitagliptin is a dipeptidyl peptidase-@ inhibitor and a new class of hypoglycemic agents . In this study , the effects of increasing the dose of metformin and add-on sitagliptin on MDA-LDL were examined in type @ diabetes patients . Seventy patients with type @ diabetes , inadequately controlled despite on-going treatment with metformin @ mg/day , were enrolled in this randomized controlled trial . The patients received additional metformin ( @ mg/day ) or sitagliptin ( @ mg/day ) for @ months , and changes in metabolic parameters including MDA-LDL were evaluated . After @ months of treatment , add-on sitagliptin ( n = @ ) improved fasting blood glucose ( FBG ) and hemoglobin A@c ( HbA@c ) to significantly greater extent than increasing the dose of metformin ( n = @ ) . There were no differences in total cholesterol and low-density lipoprotein cholesterol levels between two groups . MDA-LDL levels ( mean S.E. ) decreased significantly with increasing the dose of metformin ( from @ @ to @ @ U/L , P < @ ) , but remained unchanged with add-on sitagliptin treatment ( from @ @ to @ @ U/L , p > @ ) . Multiple linear regression analysis identified increasing the dose of metformin treatment as the only independent factor associated with decreased MDA-LDL ( coefficient @ , P < @ ) , and no significant correlation between change in MDA-LDL and fasting blood glucose or HbA@c . These results suggest that increasing the dose of metformin improves serum MDA-LDL levels in type @ diabetes mellitus .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 417,
+        "raw_id": "25090264"
+      }
+    },
+    {
+      "rank": 4,
+      "doc_id": "25011952",
+      "uid": "25011952_0",
+      "source": "vector",
+      "rerank_score": 1.5449780225753784,
+      "fusion_score": 0.9444413365067925,
+      "vector_score": 0.7753055691719055,
+      "bm25_score": 14.054156372664586,
+      "text_head": "We recently demonstrated a beneficial effect of metformin compared with glipizide in type @ diabetic patients regarding cardiovascular outcomes for @-year treatment in the SPREAD-DIMCAD study.",
+      "text": "We recently demonstrated a beneficial effect of metformin compared with glipizide in type @ diabetic patients regarding cardiovascular outcomes for @-year treatment in the SPREAD-DIMCAD study . However , the potential mechanism for the clinical effects remains unclear . Here , we performed a comprehensive lipidomics study to evaluate the different lipid metabolites in serum samples obtained from participants in this study . Liquid chromatography-quadrupole time of flight-mass spectrometry was used to evaluate the different lipid metabolites in serum samples obtained from the participants ( @ patients in glipizide group and @ patients in metformin group ) before and after each year of treatment ( at @ -LSB- baseline -RSB- , @ , @ , and @ years of study drug administration ) . A total of @ serum lipid molecular species was identified and quantified . During treatment , metformin induced a substantially greater change in serum lipid species compared with glipizide , especially at the @ - and @-year time points ( with @ , @ , and @ lipid species being significantly different between the groups after each year of treatment -LSB- @ , @ , or @ years -RSB- , P < @ ) . Among the significantly changed lipid species , three lipid metabolites were linked to long-term composite cardiovascular events ( adjusted P < @ ) . After treatment , triacylglycerols ( TAGs ) of a relatively higher carbon number showed a clearly increased trend in metformin group compared with the glipizide group , whereas the changes in TAGs with different double bonds were minimal . Our findings revealed the differential therapeutic effects of metformin and glipizide on comprehensive lipidomics , which were comparable with their different long-term effects on cardiovascular outcomes .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 357,
+        "raw_id": "25011952"
+      }
+    },
+    {
+      "rank": 5,
+      "doc_id": "24687169",
+      "uid": "24687169_0",
+      "source": "vector",
+      "rerank_score": 1.1130799055099487,
+      "fusion_score": 0.7,
+      "vector_score": 0.7908444404602051,
+      "bm25_score": 0.0,
+      "text_head": "Metformin treatment is associated with improved outcome after myocardial infarction in patients with diabetes.",
+      "text": "Metformin treatment is associated with improved outcome after myocardial infarction in patients with diabetes . In animal experimental studies metformin preserves left ventricular function . To evaluate the effect of metformin treatment on preservation of left ventricular function in patients without diabetes presenting with ST-segment elevation myocardial infarction ( STEMI ) . Double-blind , placebo-controlled study conducted among @ patients who underwent primary percutaneous coronary intervention ( PCI ) for STEMI at the University Medical Center Groningen , The Netherlands , between January @ , @ , and May @ , @ . Metformin hydrochloride ( @ mg ) ( n = @ ) or placebo ( n = @ ) twice daily for @ months . The primary efficacy measure was left ventricular ejection fraction ( LVEF ) after @ months , assessed by magnetic resonance imaging . A secondary efficacy measure was the N-terminal pro-brain natriuretic peptide ( NT-proBNP ) concentration after @ months . The incidence of major adverse cardiac events ( MACE ; the combined end point of death , reinfarction , or target-lesion revascularization ) was recorded until @ months as a secondary efficacy measure . At @ months , all patients were alive and none were lost to follow-up . LVEF was @ % ( @ % CI , @ % -@ % ) in the metformin group ( n = @ ) , compared with @ % ( @ % CI , @ % -@ % ) ( P = @ ) in the placebo group ( n = @ ) . NT-proBNP concentration was @ ng/L in the metformin group ( interquartile range -LSB- IQR -RSB- , @-@ ng/L ) and @ ng/L in the placebo group ( IQR , @-@ ng/L ) ( P = @ ) . MACE were observed in @ patients ( @ % ) in the metformin group and in @ patients ( @",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 2,
+        "token_count": 400,
+        "raw_id": "24687169_0"
+      }
+    },
+    {
+      "rank": 6,
+      "doc_id": "25458329",
+      "uid": "25458329_0",
+      "source": "vector",
+      "rerank_score": 0.9973269701004028,
+      "fusion_score": 0.8565963464369644,
+      "vector_score": 0.7422878742218018,
+      "bm25_score": 10.863333756083634,
+      "text_head": "To demonstrate the efficacy of exenatide versus insulin glargine on endothelial functions and cardiovascular risk markers.",
+      "text": "To demonstrate the efficacy of exenatide versus insulin glargine on endothelial functions and cardiovascular risk markers . Thirty-four insulin and incretin-naive patients with type @ diabetes mellitus ( body mass index @-@ kg/m ( @ ) ) who received metformin for at least two months were randomized to exenatide or insulin glargine treatment arms and followed-up for @ weeks . Measurements of endothelial functions were done by ultrasonography , cardiovascular risk markers by serum enzyme-linked immunosorbent assay , and total body fat mass by bioimpedance . Levels of high sensitivity-C-reactive protein and endothelin-@ decreased ( @ % and @ % , respectively ) in the exenatide arm . However , in the insulin glargine arm , fibrinogen , monocyte chemoattractant protein-@ , leptin and endothelin-@ levels ( @ , @ , @ , and @ % , respectively ) increased . Post-treatment flow mediated dilatation and endothelium independent vascular responses were significantly higher in both arms ( p = @ , p = @ ) . Positive correlation was observed between the changes in body weight and endothelium-independent vasodilatation , leptin , plasminogen activator inhibitor type @ and endothelin-@ in both arms ( r = @ , r = @ , r = @ , r = @ , respectively ) . Insulin glargine improved endothelial functions , without leading to positive changes in cardiovascular risk markers . Exenatide treatment of @ weeks resulted in reduced body weight and improvement in certain cardiovascular risk markers and endothelial functions .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 334,
+        "raw_id": "25458329"
+      }
+    },
+    {
+      "rank": 7,
+      "doc_id": "25306749",
+      "uid": "25306749_0",
+      "source": "vector",
+      "rerank_score": 0.7879091501235962,
+      "fusion_score": 0.6538605178951608,
+      "vector_score": 0.7387170791625977,
+      "bm25_score": 0.0,
+      "text_head": "To study the effect of metformin on metabolic parameters , body weight ( BW ) , and waist circumference ( WC ) in patients with abdominal obesity ( AO ).",
+      "text": "To study the effect of metformin on metabolic parameters , body weight ( BW ) , and waist circumference ( WC ) in patients with abdominal obesity ( AO ) . The results of using metformin @ mg daily for @ months in @ patients with AO . The comparison group consisted of @ people . BW , WC , and blood pressure ( BP ) were measured ; lipid profile parameters and blood insulin concentrations were determined ; and Homeostasis Model Assessment ( HOMA ) estimates were calculated . Metabolic syndrome ( MS ) and AO were judged by the @ International Diabetes Federation ( IDF ) criteria . The study and comparison groups showed were reductions in BW by @ and @ kg and in WC by @ and @ cm , respectively . Metformin used in the patients with AO contributed to a more significant improvement in the lipid profile than in those who received no medication . A decrease in the HOMA index was observed only in the metformin group . The effects of the drug were more pronounced in MS and insulin resistance . The use of metformin in the patients with AO decreased lower BW and HOMA index and improved lipid metabolism even in the absence of MS. The trial has demonstrated that the people with AO may take metformin could be used in to reduce BW and WC and to treat and prevent MS.",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 264,
+        "raw_id": "25306749"
+      }
+    },
+    {
+      "rank": 8,
+      "doc_id": "25414932",
+      "uid": "25414932_0",
+      "source": "vector",
+      "rerank_score": 0.11279492825269699,
+      "fusion_score": 0.9235685157553514,
+      "vector_score": 0.739190936088562,
+      "bm25_score": 14.657990965587608,
+      "text_head": "To test the effectiveness and safety of saxagliptin @ mg/d in patients with type @ diabetes mellitus ( T@DM ) with and without history of cardiovascular disease ( CVD ) or cardiovascular ( CV ) risk factors.",
+      "text": "To test the effectiveness and safety of saxagliptin @ mg/d in patients with type @ diabetes mellitus ( T@DM ) with and without history of cardiovascular disease ( CVD ) or cardiovascular ( CV ) risk factors . The authors conducted a post hoc analysis of data from @ randomized studies that compared saxagliptin versus placebo as initial combination therapy with metformin for @ weeks ( N = @ ) and versus placebo as an add-on to insulin with and without metformin for @ weeks ( N = @ ) , and assessed noninferiority to glipizide as an add-on to metformin for @ weeks ( N = @ ) . Efficacy outcomes were the adjusted mean change from baseline in glycated hemoglobin ( HbA@c ) level , fasting plasma glucose concentration , and body weight and the proportion of patients achieving an HbA@c level < @ % . Pairwise comparisons were performed in subgroups with @ ) history/no history of CVD , @ ) @ versus @ to @ CV risk factors , @ ) hypertension/no hypertension , and @ ) statin use/no statin use . Adverse events ( AE ) and hypoglycemia were monitored . In the initial combination therapy study , reductions in HbA@c level from baseline were greater with saxagliptin versus placebo in all subgroups ( difference -LSB- saxagliptin - placebo -RSB- , -@ % to -@ % ) . In the add-on to insulin metformin study , differences in adjusted mean change in HbA@c level versus placebo ranged from -@ % to -@ % across subgroups . In the noninferiority to glipizide study , adjusted mean changes in HbA@c level were comparable between saxagliptin and glipizide , across subgroups ( difference , @ % -@ % ) . No evidence suggested clinically relevant treatment-by-subgroup interactions in pairwise comparison . Incidences of @ AE were comparable across subgroups . Incidences of confirmed hypoglycemia with saxagliptin were @ in both metformin add-on studies and @ % to @ % with saxagliptin + insulin metformin . In patients with T@DM , saxagliptin @ mg/d was similarly effective in improving glycemic control , with an AE profile similar to that of placebo , irrespective of CVD history , number of CV risk factors , hypertension , or statin use .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 502,
+        "raw_id": "25414932"
+      }
+    },
+    {
+      "rank": 9,
+      "doc_id": "25098218",
+      "uid": "25098218_0",
+      "source": "vector",
+      "rerank_score": -0.24621108174324036,
+      "fusion_score": 0.6631809832374748,
+      "vector_score": 0.749247133731842,
+      "bm25_score": 0.0,
+      "text_head": "Obesity is associated with low-intensity chronic systemic inflammation.",
+      "text": "Obesity is associated with low-intensity chronic systemic inflammation . To evaluate the efficacy of two different doses of metformin in comparison with placebo on increased serum levels of high molecular weight ( HMW ) adiponectin . An experimental design was developed with a crossover complete treatment and balanced design ; @ female and eight male nondiabetic obese adults participated . All participants received , during a week and in randomized order : placebo or metformin @ or @ mg twice daily ; there was a week washout period between each treatment . The HMW adiponectin serum concentration ( @ and @ minutes ) at the end of each treatment was measured . Analyses of variance ( ANOVA ) , Bonferroni test , and size effect calculations were performed . Differences in concentrations of HMW adiponectin ( t@ ' , t@ ' ) were measured for each treatment by ANOVA , having values of p = @ and @ , respectively . The post hoc analysis reported differences favoring treatment with metformin @ mg ( p = @ ) . The sizes of the effect at times t@ and t@ for metformin @ mg were @ and @ % , and for metformin @ mg , @ and @ % , respectively .",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 1,
+        "token_count": 253,
+        "raw_id": "25098218"
+      }
+    },
+    {
+      "rank": 10,
+      "doc_id": "24948511",
+      "uid": "24948511_0",
+      "source": "vector",
+      "rerank_score": -0.29603052139282227,
+      "fusion_score": 0.6496585662768213,
+      "vector_score": 0.7339698076248169,
+      "bm25_score": 0.0,
+      "text_head": "Metformin is the recommended first-line pharmacotherapy for patients with type @ diabetes.",
+      "text": "Metformin is the recommended first-line pharmacotherapy for patients with type @ diabetes . There is no consensus on the optimum second-line pharmacotherapy . We compared the efficacy and safety of the sodium glucose cotransporter @ inhibitor empagliflozin and the sulfonylurea glimepiride as add-on to metformin in patients with type @ diabetes . In this double-blind phase @ trial , patients ( aged @ years ) with type @ diabetes and HbA@c concentrations of @-@ % , despite metformin treatment and diet and exercise counselling , were randomly assigned in a @:@ ratio with a computer-generated random sequence , stratified by HbA@c , estimated glomerular filtration rate ( eGFR ) , and region , to empagliflozin ( @ mg once daily , orally ) or glimepiride ( @-@ mg once daily , orally ) as add-on to metformin for @ weeks . Patients and investigators were masked to treatment assignment . The primary endpoint was change from baseline in HbA@c levels at weeks @ and @ . Differences in the primary endpoint were first tested for non-inferiority ( based on a margin of @ % ) . If non-inferiority was shown , differences in the primary endpoint at week @ were then tested for superiority . Analysis was done on the full-analysis set-ie , patients who were treated with at least one dose of study drug and had a baseline HbA@c value . This study is registered with ClinicalTrials.gov , number NCT@ . A @-week extension is ongoing . Between August , @ , and June , @ , @ patients were randomly assigned to receive empagliflozin ( n = @ ) or glimepiride ( n = @ ) ; four patients in the empagliflozin group did not receive the assigned treatment . Empagliflozin was non-inferior to glimepiride at both timepoints . At week",
+      "metadata": {
+        "chunk_index": 0,
+        "total_chunks": 2,
+        "token_count": 400,
+        "raw_id": "24948511_0"
+      }
+    }
+  ]
+}
