@@ -9,7 +9,7 @@
 # 用法（最简单）：
 #   python task0202/pipeline_retrieve.py
 #
-# 你会输入：
+
 #   query
 #   fusion策略（rrf/simple/weighted）
 #   topN（先拿多少候选去rerank）
