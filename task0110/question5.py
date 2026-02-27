@@ -1,6 +1,9 @@
 import json
 import random
 from transformers import AutoTokenizer
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 MAX_TOKENS = 512
 CHUNK_OVERLAP = 80
@@ -14,7 +17,7 @@ def count_tokens(text):
 
 # 1) 读 chunks.jsonl
 chunks = []
-with open("chunks.jsonl", "r", encoding="utf-8") as f:
+with open(BASE_DIR / "chunks.jsonl", "r", encoding="utf-8") as f:
     for line in f:
         chunks.append(json.loads(line))
 
