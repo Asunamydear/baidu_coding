@@ -1,0 +1,10 @@
+2026-02-28 12:31:02,848 [INFO] 初始化 MedicalGenerationPipeline ...
+2026-02-28 12:31:05,374 [INFO] Use pytorch device_name: cpu
+2026-02-28 12:31:05,374 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-02-28 12:31:19,220 [INFO] Ollama 连接成功，可用模型: ['deepseek-r1:8b']
+2026-02-28 12:31:19,220 [INFO] Pipeline 初始化完成。
+2026-02-28 12:31:44,291 [INFO] === 开始生成流水线 | query: Does metformin reduce cardiovascular risk in T2DM patients? ===
+2026-02-28 12:31:50,817 [INFO] 上下文组装完成: 5 块, 1394 tokens
+2026-02-28 12:33:29,109 [INFO] 草稿生成完成 (耗时 56.53s)
+2026-02-28 12:34:03,600 [INFO] 批判性审查完成 (耗时 34.49s)
+2026-02-28 12:34:03,601 [INFO] === 生成完成 | 总耗时: 139.31s | 答案长度: 108 words ===
