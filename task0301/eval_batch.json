@@ -1,0 +1,113 @@
+[
+  {
+    "query": "What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?",
+    "evaluation": {
+      "rouge": {
+        "rouge1_f": 0.0,
+        "rouge1_p": 0.0,
+        "rouge1_r": 0.0,
+        "rouge2_f": 0.0,
+        "rouge2_p": 0.0,
+        "rouge2_r": 0.0,
+        "rougeL_f": 0.0,
+        "rougeL_p": 0.0,
+        "rougeL_r": 0.0
+      },
+      "key_info": {
+        "recall": 0.0,
+        "details": {},
+        "pred_counts": {},
+        "ref_counts": {}
+      },
+      "hallucination": {
+        "score": 0.0,
+        "risk_level": "none",
+        "signals": [],
+        "raw_weight": 0.0
+      },
+      "summary": {
+        "rouge1_f": 0.0,
+        "rougeL_f": 0.0,
+        "key_info_recall": 0.0,
+        "halluc_score": 0.0,
+        "halluc_risk": "none"
+      }
+    },
+    "elapsed": 0.0,
+    "cache_hit": true
+  },
+  {
+    "query": "Does aspirin reduce the risk of myocardial infarction in high-risk patients?",
+    "evaluation": {
+      "rouge": {
+        "rouge1_f": 0.0,
+        "rouge1_p": 0.0,
+        "rouge1_r": 0.0,
+        "rouge2_f": 0.0,
+        "rouge2_p": 0.0,
+        "rouge2_r": 0.0,
+        "rougeL_f": 0.0,
+        "rougeL_p": 0.0,
+        "rougeL_r": 0.0
+      },
+      "key_info": {
+        "recall": 0.0,
+        "details": {},
+        "pred_counts": {},
+        "ref_counts": {}
+      },
+      "hallucination": {
+        "score": 0.0,
+        "risk_level": "none",
+        "signals": [],
+        "raw_weight": 0.0
+      },
+      "summary": {
+        "rouge1_f": 0.0,
+        "rougeL_f": 0.0,
+        "key_info_recall": 0.0,
+        "halluc_score": 0.0,
+        "halluc_risk": "none"
+      }
+    },
+    "elapsed": 185.49,
+    "cache_hit": false
+  },
+  {
+    "query": "What are the benefits of statins in patients with coronary artery disease?",
+    "evaluation": {
+      "rouge": {
+        "rouge1_f": 0.0,
+        "rouge1_p": 0.0,
+        "rouge1_r": 0.0,
+        "rouge2_f": 0.0,
+        "rouge2_p": 0.0,
+        "rouge2_r": 0.0,
+        "rougeL_f": 0.0,
+        "rougeL_p": 0.0,
+        "rougeL_r": 0.0
+      },
+      "key_info": {
+        "recall": 0.0,
+        "details": {},
+        "pred_counts": {},
+        "ref_counts": {}
+      },
+      "hallucination": {
+        "score": 0.0,
+        "risk_level": "none",
+        "signals": [],
+        "raw_weight": 0.0
+      },
+      "summary": {
+        "rouge1_f": 0.0,
+        "rougeL_f": 0.0,
+        "key_info_recall": 0.0,
+        "halluc_score": 0.0,
+        "halluc_risk": "none"
+      }
+    },
+    "elapsed": 213.05,
+    "cache_hit": false
+  }
+]

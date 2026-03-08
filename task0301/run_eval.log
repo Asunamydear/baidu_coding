@@ -1,0 +1,35 @@
+2026-03-08 16:33:09,329 [INFO] 初始化 MedicalGenerationPipeline ...
+2026-03-08 16:33:09,329 [INFO] 初始化 MedicalGenerationPipeline ...
+2026-03-08 16:33:11,774 [INFO] Use pytorch device_name: cpu
+2026-03-08 16:33:11,774 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-03-08 16:33:24,607 [INFO] Ollama 连接成功，可用模型: ['deepseek-r1:8b']
+2026-03-08 16:33:24,608 [INFO] Pipeline 初始化完成。
+2026-03-08 16:33:24,608 [INFO] Query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?
+2026-03-08 16:33:24,608 [INFO] === 开始生成流水线 | query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients? ===
+2026-03-08 16:33:31,171 [INFO] 上下文组装完成: 5 块, 1287 tokens
+2026-03-08 16:34:05,613 [INFO] 评估后上下文长度: 5614 chars
+2026-03-08 16:34:52,830 [INFO] 草稿生成完成 (耗时 47.22s)
+2026-03-08 16:35:22,527 [INFO] 批判性审查完成 (耗时 29.7s)
+2026-03-08 16:35:22,528 [INFO] === 生成完成 | 总耗时: 117.92s | 答案长度: 303 words ===
+2026-03-08 16:35:22,540 [INFO] 评估结果已保存: D:\learn\steamcode\coding\task0301\eval_single.json
+2026-03-08 16:35:22,540 [INFO] === 开始生成流水线 | query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients? ===
+2026-03-08 16:35:28,872 [INFO] 上下文组装完成: 5 块, 1287 tokens
+2026-03-08 16:36:45,445 [INFO] 草稿生成完成 (耗时 47.56s)
+2026-03-08 16:37:16,466 [INFO] 批判性审查完成 (耗时 31.02s)
+2026-03-08 16:37:16,467 [INFO] === 生成完成 | 总耗时: 113.93s | 答案长度: 405 words ===
+2026-03-08 16:37:16,467 [INFO] [CACHE SET] ok=True, query='What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:37:16,467 [INFO] [CACHE HIT] 'What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:37:16,467 [INFO] BatchProcessor 初始化: max_workers=2
+2026-03-08 16:37:16,467 [INFO] BatchProcessor.run: 3 queries, max_workers=2
+2026-03-08 16:37:16,468 [INFO] [CACHE HIT] query='What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:37:16,468 [INFO] === 开始生成流水线 | query: Does aspirin reduce the risk of myocardial infarction in high-risk patients? ===
+2026-03-08 16:37:16,470 [INFO] === 开始生成流水线 | query: What are the benefits of statins in patients with coronary artery disease? ===
+2026-03-08 16:37:26,899 [INFO] 上下文组装完成: 3 块, 1025 tokens
+2026-03-08 16:37:27,001 [INFO] 上下文组装完成: 6 块, 1073 tokens
+2026-03-08 16:39:08,313 [INFO] 草稿生成完成 (耗时 72.02s)
+2026-03-08 16:39:53,978 [INFO] 草稿生成完成 (耗时 90.62s)
+2026-03-08 16:40:21,960 [INFO] 批判性审查完成 (耗时 73.65s)
+2026-03-08 16:40:21,960 [INFO] === 生成完成 | 总耗时: 185.49s | 答案长度: 45 words ===
+2026-03-08 16:40:49,519 [INFO] 批判性审查完成 (耗时 55.54s)
+2026-03-08 16:40:49,520 [INFO] === 生成完成 | 总耗时: 213.05s | 答案长度: 29 words ===
+2026-03-08 16:40:49,530 [INFO] 批量评估结果已保存: D:\learn\steamcode\coding\task0301\eval_batch.json
