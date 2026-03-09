@@ -3,18 +3,18 @@
     "query": "What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?",
     "evaluation": {
       "rouge": {
-        "rouge1_f": 0.0714,
-        "rouge1_p": 0.0727,
-        "rouge1_r": 0.0702,
-        "rouge2_f": 0.0182,
-        "rouge2_p": 0.0185,
-        "rouge2_r": 0.0179,
-        "rougeL_f": 0.0714,
-        "rougeL_p": 0.0727,
-        "rougeL_r": 0.0702
+        "rouge1_f": 0.0674,
+        "rouge1_p": 0.0769,
+        "rouge1_r": 0.06,
+        "rouge2_f": 0.0,
+        "rouge2_p": 0.0,
+        "rouge2_r": 0.0,
+        "rougeL_f": 0.0674,
+        "rougeL_p": 0.0769,
+        "rougeL_r": 0.06
       },
       "key_info": {
-        "recall": 0.0,
+        "recall": 0.5,
         "details": {
           "percentage": {
             "ref_count": 0,
@@ -23,65 +23,81 @@
             "recall": null
           },
           "dosage": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          },
-          "time_range": {
             "ref_count": 1,
             "pred_count": 0,
-            "overlap": 0,
+            "covered": 0,
+            "recall": 0.0
+          },
+          "time_range": {
+            "ref_count": 3,
+            "pred_count": 0,
+            "covered": 0,
             "recall": 0.0
           },
           "safety": {
-            "ref_count": 1,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": 0.0
+            "ref_count": 4,
+            "pred_count": 1,
+            "covered": 1,
+            "recall": 1.0
           },
           "treatment": {
             "ref_count": 0,
-            "pred_count": 0,
+            "pred_count": 2,
             "overlap": 0,
             "recall": null
           },
           "mechanism": {
-            "ref_count": 2,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": 0.0
+            "ref_count": 6,
+            "pred_count": 5,
+            "covered": 1,
+            "recall": 1.0
           }
         },
         "pred_counts": {
           "percentage": 0,
           "dosage": 0,
           "time_range": 0,
-          "safety": 0,
-          "treatment": 0,
-          "mechanism": 0
+          "safety": 5,
+          "treatment": 5,
+          "mechanism": 12
         },
         "ref_counts": {
           "percentage": 0,
-          "dosage": 0,
-          "time_range": 1,
-          "safety": 1,
+          "dosage": 1,
+          "time_range": 3,
+          "safety": 4,
           "treatment": 0,
-          "mechanism": 2
+          "mechanism": 7
         }
       },
       "hallucination": {
-        "score": 0.0,
-        "risk_level": "none",
-        "signals": [],
-        "raw_weight": 0.0
+        "score": 0.15,
+        "risk_level": "low",
+        "signals": [
+          {
+            "label": "vague_citation_zh",
+            "count": 1,
+            "weight": 1.5
+          }
+        ],
+        "raw_weight": 1.5
+      },
+      "readability": {
+        "sentence_count": 23,
+        "avg_sentence_length": 44.83,
+        "long_sentence_ratio": 0.5217,
+        "avg_word_length": 2.61,
+        "readability_level": "poor"
       },
       "summary": {
-        "rouge1_f": 0.0714,
-        "rougeL_f": 0.0714,
-        "key_info_recall": 0.0,
-        "halluc_score": 0.0,
-        "halluc_risk": "none"
+        "rouge1_f": 0.0674,
+        "rougeL_f": 0.0674,
+        "key_info_recall": 0.5,
+        "halluc_score": 0.15,
+        "halluc_risk": "low",
+        "avg_sent_len": 44.83,
+        "long_sent_ratio": 0.5217,
+        "readability_level": "poor"
       }
     },
     "elapsed": 0.0,
@@ -91,15 +107,119 @@
     "query": "Does aspirin reduce the risk of myocardial infarction in high-risk patients?",
     "evaluation": {
       "rouge": {
-        "rouge1_f": 0.1212,
-        "rouge1_p": 0.0681,
-        "rouge1_r": 0.549,
-        "rouge2_f": 0.0391,
-        "rouge2_p": 0.022,
-        "rouge2_r": 0.18,
-        "rougeL_f": 0.0909,
-        "rougeL_p": 0.0511,
-        "rougeL_r": 0.4118
+        "rouge1_f": 0.0177,
+        "rouge1_p": 0.0127,
+        "rouge1_r": 0.0294,
+        "rouge2_f": 0.0,
+        "rouge2_p": 0.0,
+        "rouge2_r": 0.0,
+        "rougeL_f": 0.0177,
+        "rougeL_p": 0.0127,
+        "rougeL_r": 0.0294
+      },
+      "key_info": {
+        "recall": 0.6667,
+        "details": {
+          "percentage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "dosage": {
+            "ref_count": 1,
+            "pred_count": 0,
+            "covered": 0,
+            "recall": 0.0
+          },
+          "time_range": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "safety": {
+            "ref_count": 3,
+            "pred_count": 1,
+            "covered": 1,
+            "recall": 1.0
+          },
+          "treatment": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "mechanism": {
+            "ref_count": 1,
+            "pred_count": 2,
+            "covered": 1,
+            "recall": 1.0
+          }
+        },
+        "pred_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 11,
+          "treatment": 0,
+          "mechanism": 3
+        },
+        "ref_counts": {
+          "percentage": 0,
+          "dosage": 1,
+          "time_range": 0,
+          "safety": 7,
+          "treatment": 0,
+          "mechanism": 1
+        }
+      },
+      "hallucination": {
+        "score": 0.15,
+        "risk_level": "low",
+        "signals": [
+          {
+            "label": "vague_citation_zh",
+            "count": 1,
+            "weight": 1.5
+          }
+        ],
+        "raw_weight": 1.5
+      },
+      "readability": {
+        "sentence_count": 40,
+        "avg_sentence_length": 16.57,
+        "long_sentence_ratio": 0.125,
+        "avg_word_length": 2.19,
+        "readability_level": "good"
+      },
+      "summary": {
+        "rouge1_f": 0.0177,
+        "rougeL_f": 0.0177,
+        "key_info_recall": 0.6667,
+        "halluc_score": 0.15,
+        "halluc_risk": "low",
+        "avg_sent_len": 16.57,
+        "long_sent_ratio": 0.125,
+        "readability_level": "good"
+      }
+    },
+    "elapsed": 242.82,
+    "cache_hit": false
+  },
+  {
+    "query": "What are the benefits of statins in patients with coronary artery disease?",
+    "evaluation": {
+      "rouge": {
+        "rouge1_f": 0.0638,
+        "rouge1_p": 0.0556,
+        "rouge1_r": 0.075,
+        "rouge2_f": 0.0217,
+        "rouge2_p": 0.0189,
+        "rouge2_r": 0.0256,
+        "rougeL_f": 0.0638,
+        "rougeL_p": 0.0556,
+        "rougeL_r": 0.075
       },
       "key_info": {
         "recall": 1.0,
@@ -118,155 +238,77 @@
           },
           "time_range": {
             "ref_count": 0,
-            "pred_count": 1,
+            "pred_count": 0,
             "overlap": 0,
             "recall": null
           },
           "safety": {
             "ref_count": 1,
             "pred_count": 1,
-            "overlap": 1,
+            "covered": 1,
             "recall": 1.0
           },
           "treatment": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
+            "ref_count": 3,
+            "pred_count": 2,
+            "covered": 1,
+            "recall": 1.0
           },
           "mechanism": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          }
-        },
-        "pred_counts": {
-          "percentage": 0,
-          "dosage": 0,
-          "time_range": 1,
-          "safety": 14,
-          "treatment": 0,
-          "mechanism": 0
-        },
-        "ref_counts": {
-          "percentage": 0,
-          "dosage": 0,
-          "time_range": 0,
-          "safety": 4,
-          "treatment": 0,
-          "mechanism": 0
-        }
-      },
-      "hallucination": {
-        "score": 0.0,
-        "risk_level": "none",
-        "signals": [],
-        "raw_weight": 0.0
-      },
-      "summary": {
-        "rouge1_f": 0.1212,
-        "rougeL_f": 0.0909,
-        "key_info_recall": 1.0,
-        "halluc_score": 0.0,
-        "halluc_risk": "none"
-      }
-    },
-    "elapsed": 186.86,
-    "cache_hit": false
-  },
-  {
-    "query": "What are the benefits of statins in patients with coronary artery disease?",
-    "evaluation": {
-      "rouge": {
-        "rouge1_f": 0.0759,
-        "rouge1_p": 0.1154,
-        "rouge1_r": 0.0566,
-        "rouge2_f": 0.0,
-        "rouge2_p": 0.0,
-        "rouge2_r": 0.0,
-        "rougeL_f": 0.0506,
-        "rougeL_p": 0.0769,
-        "rougeL_r": 0.0377
-      },
-      "key_info": {
-        "recall": 0.0,
-        "details": {
-          "percentage": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          },
-          "dosage": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          },
-          "time_range": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          },
-          "safety": {
-            "ref_count": 0,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": null
-          },
-          "treatment": {
-            "ref_count": 2,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": 0.0
-          },
-          "mechanism": {
-            "ref_count": 1,
-            "pred_count": 0,
-            "overlap": 0,
-            "recall": 0.0
+            "ref_count": 4,
+            "pred_count": 3,
+            "covered": 1,
+            "recall": 1.0
           }
         },
         "pred_counts": {
           "percentage": 0,
           "dosage": 0,
           "time_range": 0,
-          "safety": 0,
-          "treatment": 0,
-          "mechanism": 0
-        },
-        "ref_counts": {
-          "percentage": 0,
-          "dosage": 0,
-          "time_range": 0,
-          "safety": 0,
+          "safety": 3,
           "treatment": 2,
-          "mechanism": 1
+          "mechanism": 7
+        },
+        "ref_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 1,
+          "treatment": 3,
+          "mechanism": 4
         }
       },
       "hallucination": {
-        "score": 0.15,
-        "risk_level": "low",
+        "score": 0.45,
+        "risk_level": "medium",
         "signals": [
           {
             "label": "vague_citation_zh",
-            "count": 1,
-            "weight": 1.5
+            "count": 3,
+            "weight": 4.5
           }
         ],
-        "raw_weight": 1.5
+        "raw_weight": 4.5
+      },
+      "readability": {
+        "sentence_count": 24,
+        "avg_sentence_length": 32.0,
+        "long_sentence_ratio": 0.4167,
+        "avg_word_length": 3.95,
+        "readability_level": "poor"
       },
       "summary": {
-        "rouge1_f": 0.0759,
-        "rougeL_f": 0.0506,
-        "key_info_recall": 0.0,
-        "halluc_score": 0.15,
-        "halluc_risk": "low"
+        "rouge1_f": 0.0638,
+        "rougeL_f": 0.0638,
+        "key_info_recall": 1.0,
+        "halluc_score": 0.45,
+        "halluc_risk": "medium",
+        "avg_sent_len": 32.0,
+        "long_sent_ratio": 0.4167,
+        "readability_level": "poor"
       }
     },
-    "elapsed": 214.53,
+    "elapsed": 210.78,
     "cache_hit": false
   }
 ]

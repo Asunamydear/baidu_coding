@@ -265,13 +265,20 @@ results   = processor.run(queries)     # 顺序保证，单任务失败隔离
 
 ### 评估报告（`eval_batch.json`）
 
-三条 TEST_QUERIES 的批量评估结果：
+三条 TEST_QUERIES 的批量评估结果（存在性匹配版本，2026-03-09）：
 
-| Query                | rouge1-F | rougeL-F | recall | halluc     | elapsed | cache |
-| -------------------- | -------- | -------- | ------ | ---------- | ------- | ----- |
-| metformin 心血管结局 | 0.0714   | 0.0714   | 0.0    | 0.0 (none) | 0.0s    | HIT   |
-| aspirin 心梗风险     | 0.1212   | 0.0909   | 1.0    | 0.0 (none) | 186.86s | MISS  |
-| statin 冠心病收益    | 0.0759   | 0.0506   | 0.0    | 0.15 (low) | 214.53s | MISS  |
+**测试输入（`TEST_QUERIES`，定义于 `task0224/generation_pipeline.py`）：**
+```
+1. What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?
+2. Does aspirin reduce the risk of myocardial infarction in high-risk patients?
+3. What are the benefits of statins in patients with coronary artery disease?
+```
+
+| Query                | rouge1-F | rougeL-F | recall | halluc        | readability | elapsed | cache |
+| -------------------- | -------- | -------- | ------ | ------------- | ----------- | ------- | ----- |
+| metformin 心血管结局 | 0.0674   | 0.0674   | 0.50   | 0.15 (low)    | poor        | 0.0s    | HIT   |
+| aspirin 心梗风险     | 0.0177   | 0.0177   | 0.67   | 0.15 (low)    | good        | 242.82s | MISS  |
+| statin 冠心病收益    | 0.0638   | 0.0638   | 1.0    | 0.45 (medium) | poor        | 210.78s | MISS  |
 
 - `metformin` 命中缓存（Part 2 已写入），耗时 0 秒
 - `statin` 触发 `vague_citation_zh`（研究表明），幻觉分 0.15
