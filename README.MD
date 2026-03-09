@@ -267,11 +267,11 @@ results   = processor.run(queries)     # 顺序保证，单任务失败隔离
 
 三条 TEST_QUERIES 的批量评估结果：
 
-| Query                | rouge1-F | rougeL-F | recall | halluc     | elapsed | cache  |
-| -------------------- | -------- | -------- | ------ | ---------- | ------- | ------ |
-| metformin 心血管结局 | 0.0714   | 0.0714   | 0.0    | 0.0 (none) | 0.0s    | ✅ HIT  |
-| aspirin 心梗风险     | 0.1212   | 0.0909   | 1.0    | 0.0 (none) | 186.86s | ❌ MISS |
-| statin 冠心病收益    | 0.0759   | 0.0506   | 0.0    | 0.15 (low) | 214.53s | ❌ MISS |
+| Query                | rouge1-F | rougeL-F | recall | halluc     | elapsed | cache |
+| -------------------- | -------- | -------- | ------ | ---------- | ------- | ----- |
+| metformin 心血管结局 | 0.0714   | 0.0714   | 0.0    | 0.0 (none) | 0.0s    | HIT   |
+| aspirin 心梗风险     | 0.1212   | 0.0909   | 1.0    | 0.0 (none) | 186.86s | MISS  |
+| statin 冠心病收益    | 0.0759   | 0.0506   | 0.0    | 0.15 (low) | 214.53s | MISS  |
 
 - `metformin` 命中缓存（Part 2 已写入），耗时 0 秒
 - `statin` 触发 `vague_citation_zh`（研究表明），幻觉分 0.15
@@ -329,12 +329,11 @@ python task0301/run_eval.py
 ## 系统状态
 
 ```
-Task0106: 数据分析                    ✅ 完成
-Task0110: 文本分块                    ✅ 完成
-Task0118: 向量索引构建                 ✅ 完成
-Task0125: 查询理解增强                 ✅ 完成
-Task0202: 多路检索 + 融合 + 重排序      ✅ 完成
-Task0216: 上下文组装 + 提示词           ✅ 完成
-Task0224: LLM 集成 + 多阶段生成流水线   ✅ 完成
-Task0301: 答案评估 + 缓存 + 批量处理    ✅ 完成
-```
+Task0106: 数据分析                    
+Task0110: 文本分块                    
+Task0118: 向量索引构建                 
+Task0125: 查询理解增强                 
+Task0202: 多路检索 + 融合 + 重排序      
+Task0216: 上下文组装 + 提示词           
+Task0224: LLM 集成 + 多阶段生成流水线   
+Task0301: 答案评估 + 缓存 + 批量处理    
