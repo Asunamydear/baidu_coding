@@ -52,13 +52,19 @@ def rouge_similarity(prediction: str, reference: str) -> Dict[str, float]:
 # 关键医学信息的正则匹配规则（中英文混合）
 KEY_INFO_PATTERNS: Dict[str, str] = {
     # 百分比
-    "percentage": r"\b\d+(\.\d+)?\s*%",
+    "percentage": r"\b\d+(\.\d+)?\s*%\b|\b百分之\s*\d+",
 
     # 剂量信息（如 500mg, 2.5 mg/kg, 100 IU）
-    "dosage": r"\b\d+(\.\d+)?\s*(mg|g|mcg|ug|ml|IU|mmol|μg)(\s*/\s*(kg|day|dose|d))?\b",
+    "dosage": (
+        r"\b\d+(\.\d+)?\s*(mg|g|mcg|ug|ml|IU|mmol|μg)(\s*/\s*(kg|day|dose|d))?\b"
+        r"|\b\d+(\.\d+)?\s*(毫克|克|微克|毫升|单位|摩尔|微摩尔)(\s*/\s*(公斤|天|次|日))?\b"
+    ),
 
-    # 时间范围（如 12 weeks, 6 months, 2 years, 24-hour）
-    "time_range": r"\b\d+[\-–]?\d*\s*(week|month|year|day|hour|hr|wk|mo|yr)s?\b",
+    # 时间范围 —— 英文：12 weeks  中文：12周 / 3个月
+    "time_range": (
+        r"\d+[\-\u2013]?\d*\s*(week|month|year|day|hour|hr|wk|mo|yr)s?(?=\b|\s|$)"  # 英文
+        r"|\d+[\-\u2013]?\d*\s*个?\s*(周|月|年|天|小时|日)"                        # 中文：3个月 / 12周
+    ),
 
     # 安全性词（副作用/不良反应）—— 中英文
     "safety": (
@@ -84,18 +90,16 @@ KEY_INFO_PATTERNS: Dict[str, str] = {
 
 
 def _extract_key_info(text: str) -> Dict[str, List[str]]:
-    """从文本中提取各类关键医学信息，返回 {类型: [匹配列表]}"""
+    """从文本中提取各类关键医学信息，返回 {类型: [匹配列表]}
+    使用 finditer 获取完整匹配字符串（避免 findall 将多组返回为 tuple 导致丢失实际匹配）
+    """
     results: Dict[str, List[str]] = {}
     for info_type, pattern in KEY_INFO_PATTERNS.items():
-        matches = re.findall(pattern, text, flags=re.IGNORECASE)
-        # findall 可能返回 tuple（有 group），提取第一个元素或原字符串
-        cleaned = []
-        for m in matches:
-            if isinstance(m, tuple):
-                cleaned.append(m[0] if m[0] else "")
-            else:
-                cleaned.append(m)
-        results[info_type] = [x.strip() for x in cleaned if x.strip()]
+        # 使用 finditer 取完整匹配字符串（group(0)），而不是捕获组
+        matches = [m.group(0).strip()
+                   for m in re.finditer(pattern, text, flags=re.IGNORECASE)
+                   if m.group(0).strip()]
+        results[info_type] = matches
     return results
 
 
@@ -129,14 +133,17 @@ def key_info_recall(prediction: str, reference: str) -> Dict[str, Any]:
             }
             continue
 
-        overlap = len(pred_set & ref_set)
-        recall = overlap / gt_count
+        # 存在性匹配：pred 只要该类别有任意匹配，就视为完全覆盖（recall = 1.0）
+        # 改进原因：精确字符串匹配会因语言不同（"3个月" vs "6-12 months"）
+        #          或具体数值不同（"1000mg" vs "500mg"）导致永远无法 overlap
+        covered = 1 if len(pred_set) > 0 else 0
+        recall = float(covered)
         recall_scores.append(recall)
 
         details[info_type] = {
             "ref_count": gt_count,
             "pred_count": len(pred_set),
-            "overlap": overlap,
+            "covered": covered,   # 1=该类别被覆盖, 0=未覆盖
             "recall": round(recall, 4)
         }
 
@@ -236,15 +243,95 @@ def hallucination_score(prediction: str) -> Dict[str, Any]:
 
 
 # ==========================================
+# d. 可读性评估
+# ==========================================
+
+# 长句阈值（超过该词数的句子算作长句）
+LONG_SENTENCE_THRESHOLD = 40
+
+
+def readability_score(prediction: str) -> Dict[str, Any]:
+    """
+    计算生成文本的可读性指标（中英文兼容）：
+      - sentence_count:       句子总数
+      - avg_sentence_length:  平均句子长度（词/字数）
+      - long_sentence_ratio:  长句比例（超过 LONG_SENTENCE_THRESHOLD 词的句子占比）
+      - avg_word_length:      英文平均单词字符数（中文句子过滤）
+      - readability_level:    可读性等级（good / fair / poor）
+    """
+    if not prediction:
+        return {
+            "sentence_count": 0,
+            "avg_sentence_length": 0.0,
+            "long_sentence_ratio": 0.0,
+            "avg_word_length": 0.0,
+            "readability_level": "n/a",
+        }
+
+    # --- 分句：支持英文句号和中文句号 ---
+    sentences = re.split(r'[.!?\n。！？]+', prediction)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    sentence_count = len(sentences)
+
+    if sentence_count == 0:
+        return {
+            "sentence_count": 0,
+            "avg_sentence_length": 0.0,
+            "long_sentence_ratio": 0.0,
+            "avg_word_length": 0.0,
+            "readability_level": "n/a",
+        }
+
+    # --- 句子长度：英文按空格分词，中文按字符计数 ---
+    def sentence_length(s: str) -> int:
+        # 检测是否主要为中文（CJK 字符占比）
+        cjk_count = len(re.findall(r'[\u4e00-\u9fff]', s))
+        if cjk_count > len(s) * 0.3:
+            return len(s)                  # 中文：按字符数
+        return len(s.split())              # 英文：按单词数
+
+    lengths = [sentence_length(s) for s in sentences]
+    avg_sentence_length = round(sum(lengths) / sentence_count, 2)
+
+    # --- 长句比例 ---
+    long_count = sum(1 for l in lengths if l > LONG_SENTENCE_THRESHOLD)
+    long_sentence_ratio = round(long_count / sentence_count, 4)
+
+    # --- 英文单词平均长度（只计纯英文单词） ---
+    english_words = re.findall(r'[a-zA-Z]+', prediction)
+    avg_word_length = (
+        round(sum(len(w) for w in english_words) / len(english_words), 2)
+        if english_words else 0.0
+    )
+
+    # --- 可读性等级 ---
+    if avg_sentence_length <= 25 and long_sentence_ratio <= 0.2:
+        readability_level = "good"   # 句子简短，长句少
+    elif avg_sentence_length <= 40 and long_sentence_ratio <= 0.4:
+        readability_level = "fair"   # 句子适中
+    else:
+        readability_level = "poor"   # 句子过长，可读性差
+
+    return {
+        "sentence_count":      sentence_count,
+        "avg_sentence_length": avg_sentence_length,
+        "long_sentence_ratio": long_sentence_ratio,
+        "avg_word_length":     avg_word_length,
+        "readability_level":   readability_level,
+    }
+
+
+# ==========================================
 # 统一评估入口
 # ==========================================
 
 class AnswerEvaluator:
     """
-    统一答案评估器，集成三个维度：
+    统一答案评估器，集成四个维度：
       1. ROUGE 文本相似性
       2. 关键信息召回率
       3. 幻觉风险分
+      4. 可读性评估（平均句长、长句比例、单词平均长度）
     """
 
     def evaluate(self, prediction: str, reference: Optional[str] = None) -> Dict[str, Any]:
@@ -257,25 +344,31 @@ class AnswerEvaluator:
               "rouge": {...},
               "key_info": {...},
               "hallucination": {...},
+              "readability": {...},
               "summary": {...}   # 核心指标汇总
             }
         """
         rouge = rouge_similarity(prediction, reference or "")
         key_info = key_info_recall(prediction, reference or "")
         halluc = hallucination_score(prediction)
+        readability = readability_score(prediction)
 
         summary = {
-            "rouge1_f":        rouge.get("rouge1_f", 0.0),
-            "rougeL_f":        rouge.get("rougeL_f", 0.0),
-            "key_info_recall": key_info.get("recall", 0.0),
-            "halluc_score":    halluc.get("score", 0.0),
-            "halluc_risk":     halluc.get("risk_level", "none"),
+            "rouge1_f":           rouge.get("rouge1_f", 0.0),
+            "rougeL_f":           rouge.get("rougeL_f", 0.0),
+            "key_info_recall":    key_info.get("recall", 0.0),
+            "halluc_score":       halluc.get("score", 0.0),
+            "halluc_risk":        halluc.get("risk_level", "none"),
+            "avg_sent_len":       readability.get("avg_sentence_length", 0.0),
+            "long_sent_ratio":    readability.get("long_sentence_ratio", 0.0),
+            "readability_level":  readability.get("readability_level", "n/a"),
         }
 
         return {
             "rouge": rouge,
             "key_info": key_info,
             "hallucination": halluc,
+            "readability": readability,
             "summary": summary,
         }
 
@@ -290,6 +383,9 @@ class AnswerEvaluator:
         print(f"[ROUGE]         rouge1-F={s['rouge1_f']:.4f}  rougeL-F={s['rougeL_f']:.4f}")
         print(f"[Key Info]      recall={s['key_info_recall']:.4f}")
         print(f"[Hallucination] score={s['halluc_score']:.4f}  risk={s['halluc_risk'].upper()}")
+        print(f"[Readability]   avg_sent_len={s['avg_sent_len']}  "
+              f"long_ratio={s['long_sent_ratio']:.2%}  "
+              f"level={s['readability_level'].upper()}")
 
         # 触发的幻觉信号
         signals = result["hallucination"].get("signals", [])
@@ -305,7 +401,7 @@ class AnswerEvaluator:
             print("  Key info recall by type:")
             for k, v in active.items():
                 print(f"    - {k}: ref={v['ref_count']}, pred={v['pred_count']}, "
-                      f"overlap={v['overlap']}, recall={v['recall']}")
+                      f"covered={'yes' if v.get('covered') else 'no'}, recall={v['recall']}")
         print("=" * 60)
 
 

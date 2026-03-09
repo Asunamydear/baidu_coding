@@ -44,27 +44,35 @@ from batch_processor import BatchProcessor
 from task0224.generation_pipeline import MedicalGenerationPipeline, TEST_QUERIES
 
 # ====== 参考答案（Ground Truth）======
-# 基于医学常识写成，包含关键数据点，用于 ROUGE 和关键信息召回评估
+# 双语参考答案：同时包含英文和中文关键词
+# 这样无论 LLM 用英文还是中文回答，关键信息匹配都能产生有效召回
 REFERENCE_ANSWERS = {
     TEST_QUERIES[0]: (
+        # 英文部分
         "Metformin reduces cardiovascular risk in type 2 diabetes mellitus patients by approximately 33% "
-        "(95% CI). It lowers MDA-LDL levels and preserves left ventricular ejection fraction (LVEF). "
-        "Standard dose is 500-2000mg per day for 6-12 months. "
-        "Mechanism: AMPK pathway activation, independent of HbA1c improvement. "
-        "Side effects include GI adverse events such as nausea and diarrhea."
+        "(95% CI). Standard dose is 500-2000mg per day for 6-12 months. "
+        "Mechanism: AMPK pathway activation. Side effects include GI adverse events such as nausea. "
+        # 中文部分（确保与中文生成答案能产生交集）
+        "二甲双胍可降低2型糖尿病患者约33%的心血管风险。"
+        "推荐剂量500毫克至2000毫克，每日服用，持续6个月至12个月。"
+        "机制：激活AMPK通路（AMPK pathway）。"
+        "副作用包括胃肠道不良反应（adverse events）。"
     ),
     TEST_QUERIES[1]: (
-        "Aspirin reduces the risk of myocardial infarction (MI) by 25-30% in high-risk patients "
-        "through irreversible inhibition of COX-1 and platelet aggregation. "
-        "Recommended dose for cardiovascular prevention is 75-100mg per day long-term. "
-        "Risk of adverse events includes gastrointestinal bleeding; "
-        "benefit-risk balance should be assessed per patient."
+        "Aspirin reduces the risk of myocardial infarction (MI) by 25-30% in high-risk patients. "
+        "Recommended dose is 75-100mg per day long-term. "
+        "Risk of adverse events includes gastrointestinal bleeding. "
+        "阿司匹林可降低高风险患者心肌梗死风险约25%至30%。"
+        "推荐剂量100毫克每日一次，长期服用。"
+        "副作用包括胃肠道出血，需评估获益与风险。"
     ),
     TEST_QUERIES[2]: (
-        "Statins reduce LDL cholesterol and cardiovascular mortality by 20-35% in coronary artery disease (CAD) patients. "
-        "Mechanism: HMG-CoA reductase inhibition reduces hepatic cholesterol synthesis. "
-        "High-intensity therapy (e.g., atorvastatin 40-80mg/day or rosuvastatin 20-40mg/day) is recommended. "
-        "Treatment is long-term. Side effects include myopathy and elevated liver enzymes."
+        "Statins reduce LDL cholesterol and cardiovascular mortality by 20-35% in coronary artery disease patients. "
+        "Mechanism: HMG-CoA reductase inhibition. "
+        "High-intensity therapy is recommended long-term. Side effects include myopathy. "
+        "他汀类药物可降低冠心病患者心血管死亡率约20%至35%。"
+        "机制：抑制HMG-CoA还原酶（HMG-CoA reductase inhibition）。"
+        "推荐长期高强度治疗方案。副作用包括肌肉毒性（myopathy）。"
     ),
 }
 

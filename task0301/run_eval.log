@@ -33,3 +33,44 @@
 2026-03-08 16:40:49,519 [INFO] 批判性审查完成 (耗时 55.54s)
 2026-03-08 16:40:49,520 [INFO] === 生成完成 | 总耗时: 213.05s | 答案长度: 29 words ===
 2026-03-08 16:40:49,530 [INFO] 批量评估结果已保存: D:\learn\steamcode\coding\task0301\eval_batch.json
+2026-03-08 16:51:03,263 [INFO] 初始化 MedicalGenerationPipeline ...
+2026-03-08 16:51:03,263 [INFO] 初始化 MedicalGenerationPipeline ...
+2026-03-08 16:51:05,698 [INFO] Use pytorch device_name: cpu
+2026-03-08 16:51:05,698 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-03-08 16:51:18,978 [INFO] Ollama 连接成功，可用模型: ['deepseek-r1:8b']
+2026-03-08 16:51:18,978 [INFO] Pipeline 初始化完成。
+2026-03-08 16:51:18,979 [INFO] Query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?
+2026-03-08 16:51:18,979 [INFO] === 开始生成流水线 | query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients? ===
+2026-03-08 16:51:24,912 [INFO] 上下文组装完成: 5 块, 1287 tokens
+2026-03-08 16:52:45,649 [INFO] 草稿生成完成 (耗时 47.51s)
+2026-03-08 16:53:15,831 [INFO] 批判性审查完成 (耗时 30.18s)
+2026-03-08 16:53:15,831 [INFO] === 生成完成 | 总耗时: 116.85s | 答案长度: 31 words ===
+2026-03-08 16:53:16,265 [INFO] Using default tokenizer.
+2026-03-08 16:53:16,272 [INFO] 评估结果已保存: D:\learn\steamcode\coding\task0301\eval_single.json
+2026-03-08 16:53:16,273 [INFO] === 开始生成流水线 | query: What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients? ===
+2026-03-08 16:53:22,577 [INFO] 上下文组装完成: 5 块, 1287 tokens
+2026-03-08 16:53:51,738 [INFO] 评估后上下文长度: 5614 chars
+2026-03-08 16:54:39,784 [INFO] 草稿生成完成 (耗时 48.05s)
+2026-03-08 16:55:10,430 [INFO] 批判性审查完成 (耗时 30.65s)
+2026-03-08 16:55:10,430 [INFO] === 生成完成 | 总耗时: 114.16s | 答案长度: 59 words ===
+2026-03-08 16:55:10,430 [INFO] [CACHE SET] ok=True, query='What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:55:10,430 [INFO] [CACHE HIT] 'What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:55:10,430 [INFO] BatchProcessor 初始化: max_workers=2
+2026-03-08 16:55:10,430 [INFO] BatchProcessor.run: 3 queries, max_workers=2
+2026-03-08 16:55:10,431 [INFO] [CACHE HIT] query='What is the effect of metformin on cardiovascular outcomes i'
+2026-03-08 16:55:10,431 [INFO] === 开始生成流水线 | query: Does aspirin reduce the risk of myocardial infarction in high-risk patients? ===
+2026-03-08 16:55:10,433 [INFO] === 开始生成流水线 | query: What are the benefits of statins in patients with coronary artery disease? ===
+2026-03-08 16:55:20,869 [INFO] 上下文组装完成: 3 块, 1025 tokens
+2026-03-08 16:55:20,882 [INFO] 上下文组装完成: 6 块, 1073 tokens
+2026-03-08 16:56:17,922 [INFO] 评估后上下文长度: 4670 chars
+2026-03-08 16:57:03,526 [INFO] 草稿生成完成 (耗时 73.25s)
+2026-03-08 16:57:49,087 [INFO] 草稿生成完成 (耗时 91.16s)
+2026-03-08 16:58:17,295 [INFO] 批判性审查完成 (耗时 73.77s)
+2026-03-08 16:58:17,295 [INFO] === 生成完成 | 总耗时: 186.86s | 答案长度: 395 words ===
+2026-03-08 16:58:44,965 [INFO] 批判性审查完成 (耗时 55.88s)
+2026-03-08 16:58:44,965 [INFO] === 生成完成 | 总耗时: 214.53s | 答案长度: 15 words ===
+2026-03-08 16:58:44,965 [INFO] Using default tokenizer.
+2026-03-08 16:58:44,969 [INFO] Using default tokenizer.
+2026-03-08 16:58:44,987 [INFO] Using default tokenizer.
+2026-03-08 16:58:44,992 [INFO] 批量评估结果已保存: D:\learn\steamcode\coding\task0301\eval_batch.json
+2026-03-09 11:07:23,744 [INFO] Using default tokenizer.

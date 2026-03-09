@@ -3,21 +3,72 @@
     "query": "What is the effect of metformin on cardiovascular outcomes in type 2 diabetes patients?",
     "evaluation": {
       "rouge": {
-        "rouge1_f": 0.0,
-        "rouge1_p": 0.0,
-        "rouge1_r": 0.0,
-        "rouge2_f": 0.0,
-        "rouge2_p": 0.0,
-        "rouge2_r": 0.0,
-        "rougeL_f": 0.0,
-        "rougeL_p": 0.0,
-        "rougeL_r": 0.0
+        "rouge1_f": 0.0714,
+        "rouge1_p": 0.0727,
+        "rouge1_r": 0.0702,
+        "rouge2_f": 0.0182,
+        "rouge2_p": 0.0185,
+        "rouge2_r": 0.0179,
+        "rougeL_f": 0.0714,
+        "rougeL_p": 0.0727,
+        "rougeL_r": 0.0702
       },
       "key_info": {
         "recall": 0.0,
-        "details": {},
-        "pred_counts": {},
-        "ref_counts": {}
+        "details": {
+          "percentage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "dosage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "time_range": {
+            "ref_count": 1,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": 0.0
+          },
+          "safety": {
+            "ref_count": 1,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": 0.0
+          },
+          "treatment": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "mechanism": {
+            "ref_count": 2,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": 0.0
+          }
+        },
+        "pred_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 0,
+          "treatment": 0,
+          "mechanism": 0
+        },
+        "ref_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 1,
+          "safety": 1,
+          "treatment": 0,
+          "mechanism": 2
+        }
       },
       "hallucination": {
         "score": 0.0,
@@ -26,8 +77,8 @@
         "raw_weight": 0.0
       },
       "summary": {
-        "rouge1_f": 0.0,
-        "rougeL_f": 0.0,
+        "rouge1_f": 0.0714,
+        "rougeL_f": 0.0714,
         "key_info_recall": 0.0,
         "halluc_score": 0.0,
         "halluc_risk": "none"
@@ -40,21 +91,72 @@
     "query": "Does aspirin reduce the risk of myocardial infarction in high-risk patients?",
     "evaluation": {
       "rouge": {
-        "rouge1_f": 0.0,
-        "rouge1_p": 0.0,
-        "rouge1_r": 0.0,
-        "rouge2_f": 0.0,
-        "rouge2_p": 0.0,
-        "rouge2_r": 0.0,
-        "rougeL_f": 0.0,
-        "rougeL_p": 0.0,
-        "rougeL_r": 0.0
+        "rouge1_f": 0.1212,
+        "rouge1_p": 0.0681,
+        "rouge1_r": 0.549,
+        "rouge2_f": 0.0391,
+        "rouge2_p": 0.022,
+        "rouge2_r": 0.18,
+        "rougeL_f": 0.0909,
+        "rougeL_p": 0.0511,
+        "rougeL_r": 0.4118
       },
       "key_info": {
-        "recall": 0.0,
-        "details": {},
-        "pred_counts": {},
-        "ref_counts": {}
+        "recall": 1.0,
+        "details": {
+          "percentage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "dosage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "time_range": {
+            "ref_count": 0,
+            "pred_count": 1,
+            "overlap": 0,
+            "recall": null
+          },
+          "safety": {
+            "ref_count": 1,
+            "pred_count": 1,
+            "overlap": 1,
+            "recall": 1.0
+          },
+          "treatment": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "mechanism": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          }
+        },
+        "pred_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 1,
+          "safety": 14,
+          "treatment": 0,
+          "mechanism": 0
+        },
+        "ref_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 4,
+          "treatment": 0,
+          "mechanism": 0
+        }
       },
       "hallucination": {
         "score": 0.0,
@@ -63,51 +165,108 @@
         "raw_weight": 0.0
       },
       "summary": {
-        "rouge1_f": 0.0,
-        "rougeL_f": 0.0,
-        "key_info_recall": 0.0,
+        "rouge1_f": 0.1212,
+        "rougeL_f": 0.0909,
+        "key_info_recall": 1.0,
         "halluc_score": 0.0,
         "halluc_risk": "none"
       }
     },
-    "elapsed": 185.49,
+    "elapsed": 186.86,
     "cache_hit": false
   },
   {
     "query": "What are the benefits of statins in patients with coronary artery disease?",
     "evaluation": {
       "rouge": {
-        "rouge1_f": 0.0,
-        "rouge1_p": 0.0,
-        "rouge1_r": 0.0,
+        "rouge1_f": 0.0759,
+        "rouge1_p": 0.1154,
+        "rouge1_r": 0.0566,
         "rouge2_f": 0.0,
         "rouge2_p": 0.0,
         "rouge2_r": 0.0,
-        "rougeL_f": 0.0,
-        "rougeL_p": 0.0,
-        "rougeL_r": 0.0
+        "rougeL_f": 0.0506,
+        "rougeL_p": 0.0769,
+        "rougeL_r": 0.0377
       },
       "key_info": {
         "recall": 0.0,
-        "details": {},
-        "pred_counts": {},
-        "ref_counts": {}
+        "details": {
+          "percentage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "dosage": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "time_range": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "safety": {
+            "ref_count": 0,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": null
+          },
+          "treatment": {
+            "ref_count": 2,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": 0.0
+          },
+          "mechanism": {
+            "ref_count": 1,
+            "pred_count": 0,
+            "overlap": 0,
+            "recall": 0.0
+          }
+        },
+        "pred_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 0,
+          "treatment": 0,
+          "mechanism": 0
+        },
+        "ref_counts": {
+          "percentage": 0,
+          "dosage": 0,
+          "time_range": 0,
+          "safety": 0,
+          "treatment": 2,
+          "mechanism": 1
+        }
       },
       "hallucination": {
-        "score": 0.0,
-        "risk_level": "none",
-        "signals": [],
-        "raw_weight": 0.0
+        "score": 0.15,
+        "risk_level": "low",
+        "signals": [
+          {
+            "label": "vague_citation_zh",
+            "count": 1,
+            "weight": 1.5
+          }
+        ],
+        "raw_weight": 1.5
       },
       "summary": {
-        "rouge1_f": 0.0,
-        "rougeL_f": 0.0,
+        "rouge1_f": 0.0759,
+        "rougeL_f": 0.0506,
         "key_info_recall": 0.0,
-        "halluc_score": 0.0,
-        "halluc_risk": "none"
+        "halluc_score": 0.15,
+        "halluc_risk": "low"
       }
     },
-    "elapsed": 213.05,
+    "elapsed": 214.53,
     "cache_hit": false
   }
 ]
